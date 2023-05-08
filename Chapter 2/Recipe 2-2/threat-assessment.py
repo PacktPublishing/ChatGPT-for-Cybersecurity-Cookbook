@@ -1,65 +1,3 @@
-The recipe for 2.2 is: 
-Threat Assessment using ChatGPT and MITRE ATT&CK Framework
-
-Premise:
-This recipe will show readers how to use ChatGPT, and also the API the name of a threat, to generate a threat report, details, etc. as well as the MITRE ATT&CK framework TTP mappings and any IoCs associated with the threat, by simply providing a threat, attack, or campaign name. This is useful because it can help cybersecurity professionals do attack vector analysis of their environment, by threat. By adding indicators of compromise (IoCs) to the report, this can begin to extend into threat hunting.
-
-This will build on the skills from Chapter 1: Establishing the system role, engineering an effective prompt that generates formatted output and also table output. We will instruct the reader how to engineer the role of the cybersecurity analyst, and then how to engineer the prompt to get the desired output in ChatGPT. We will then show them how to do it using the API, which can then generate the report as a MS Word file. 
-
-
-
-Write the recipe using the following format:
-
-#Recipe Name (Heading 1)
-
-Recipe intro/description. This is also where you can mention how this recipe can be helpful/valuable.
-
-##Getting Ready (Heading 2)
-
-What prerequisites are required before doing this recipe?
-
-##How to do it... (Heading 2)
-
-Provide a lead in sentence or short paragraph to let the reader know what to expect or any other important notes/details prior to beginning the step-by-step instructions.
-
-We will do the ChatGPT version here. Provide step-by-step numbered instructions of how to use the role and prompt in the ChatGPT web UI to get the desired output. 
-
-The following system role will be used:
-"You are a professional cyber threat analyst and MITRE ATT&CK Framework expert."
-
-The following user prompt will be used:
-"Provide a detailed report about {threat_name}, using the following template (and proper markdown language formatting, headings, bold keywords, tables, etc.):
-
-Threat Name (Heading 1)
-
-Summary (Heading 2)
-Short executive summary
-
-Details (Heading 2)
-Description and details including history/background, discovery, characteristics and TTPs, known incidents
-
-MITRE ATT&CK TTPs (Heading 2)
-Table containing all of the known MITRE ATT&CK TTPs that the {threat_name} attack uses. Include the following collumns: Tactic, Technique ID, Technique Name, Procedure (How {threat_name} uses it)
-
-Indicators of Compromise (Heading 2)
-Table containing all of the known indicators of compromise. Include the following collumns: Type, Value, Description"  
-
-##How it works...  (Heading 2)
-
-Explain how/why this recipe works, breaking down each code block if code is used.
-
-##There's more... (Heading 2)
-
-We will do the OpenAI API script version here. Basically do what you did for the "How to do it..." part, but for the OpenAI API version instead of ChatGPT. Use a lead-in sentence or short paragraph and then be sure to relate this back to the ChatGPT version. The Python script will get the name of the threat from user input, and that input will replace {threat_name} in the prompt.
-
-Divide the code up into easily digestible blocks (usually where the comments might be). After the steps, explain how each step/code block works.
-
-If you understand and are ready, I'll provide you with the code that I wrote, for you to write this section.
-
-At the end (or in notes/hints), we should mention that the model can be changed to GPT-4 or whatever in order to get different/better results, and the message parameters can be modified. The prompt can also be adjusted and tweaked in order to get the results the user wants.
-
-Code:
-
 import openai
 import os
 from docx import Document
@@ -199,4 +137,3 @@ try:
     print("\nReport and tables generated successfully!")
 except Exception as e:
     print(f"\nAn error occurred during the report generation: {e}")
-
