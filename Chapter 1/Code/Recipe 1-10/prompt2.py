@@ -1,5 +1,4 @@
 import openai
-import os
 
 def open_file(filepath):
     with open(filepath, 'r', encoding='UTF-8') as infile:
