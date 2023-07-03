@@ -1,0 +1,18 @@
+Introduction to Cybersecurity
+Importance of Cybersecurity in the Electric Utility Industry
+Understanding Cyber Threats: Definitions and Examples
+Common Cyber Threats in the Electric Utility Industry
+The Consequences of Cyber Attacks on Electric Utilities
+Identifying Suspicious Emails and Phishing Attempts
+The Dangers of Malware and How to Avoid Them
+Safe Internet Browsing Practices
+The Importance of Regular Software Updates and Patches
+Securing Mobile Devices and Remote Workstations
+The Role of Passwords in Cybersecurity: Creating Strong Passwords
+Two-Factor Authentication and How It Protects You
+Protecting Sensitive Information: Personal and Company Data
+Understanding Firewalls and Encryption
+Social Engineering: How to Recognize and Avoid
+Handling and Reporting Suspected Cybersecurity Incidents
+Role of Employees in Maintaining Cybersecurity
+Best Practices for Cybersecurity in the Electric Utility Industry

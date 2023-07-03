@@ -1,0 +1,21 @@
+Priority	Asset/System Type	Criticality Rating	Business Function	Attack Surface Size	Attack Surface Rating	Attack Vector Rating	Mitigations and Remediations	Risk Score
+1	Database Server 1	High	Sales	200	Critical	High	Update DB software, Enforce strong access control	9
+2	Payment Gateway	High	Sales	180	Critical	High	Implement PCI DSS, SSL/TLS upgrades	9
+3	ERP System	High	All	150	Critical	High	Update ERP software, Implement access control	9
+4	Web Server 1	High	Sales	120	Critical	High	Firewall updates, SSL/TLS upgrades	9
+5	Cloud Storage	High	All	100	High	High	Apply cloud security best practices, Implement 2FA	9
+6	Firewall	High	All	70	High	High	Firmware updates, Tighten rule sets	9
+7	SAN Storage	High	All	60	High	High	Update SAN software, Implement access control	9
+8	Email Server	High	Communication	80	High	High	Spam filter updates, User training	9
+9	Networking Switch	High	All	30	Medium	High	Firmware updates, Change default credentials	8
+10	Router	High	All	30	Medium	High	Firmware updates, Change default credentials	8
+11	CRM Software	High	Sales	50	Medium	Medium	Update CRM software, Implement 2FA	7
+12	Web Server 2	Medium	Marketing	60	Medium	Medium	SSL/TLS upgrades, Implement WAF	6
+13	Mobile Device 1	Medium	Sales	25	Medium	Medium	Implement MDM, Enforce device encryption	6
+14	VOIP Server	Medium	All	45	Medium	Medium	Apply patches, Implement strong access control	6
+15	WiFi AP	Medium	All	40	Medium	Medium	Firmware updates, Implement strong WiFi encryption	6
+16	File Server	Medium	HR	30	Medium	Medium	Apply software patches, Improve password policy	6
+17	IoT Device 1	Low	Maintenance	20	Medium	Low	Apply firmware updates, Change default passwords	3
+18	Virtual Machine 1	Low	Development	20	Low	Low	Apply OS patches, Enforce strong access control	3
+19	Workstation 1	Low	Engineering	10	Low	Low	Install Antivirus, Apply OS patches	3
+20	Print Server	Low	All	15	Low	Low	Apply firmware updates
