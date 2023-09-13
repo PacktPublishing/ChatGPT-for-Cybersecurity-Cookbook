@@ -1,0 +1,3 @@
+Provide the manual-page output for the following tool. Provide the output exactly as it would appear in an actual Linux terminal and nothing else before or after the manual-page output.
+
+<<INPUT>>
