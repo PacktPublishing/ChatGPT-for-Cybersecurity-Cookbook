@@ -1,8 +1,10 @@
 from scapy.all import rdpcap, IP, TCP
+import os
 import openai
 
 # Initialize the OpenAI API client
-openai.api_key = 'YOUR_OPENAI_API_KEY'  # Replace with your actual API key
+#openai.api_key = 'YOUR_OPENAI_API_KEY'  # Replace with your actual API key or set the OPENAI_API_KEY environment variable
+openai.api_key = os.getenv("OPENAI_API_KEY")  
 
 # Function to interact with ChatGPT
 def chat_with_gpt(prompt):
