@@ -1,7 +1,8 @@
 import openai
+import os
 
 # Initialize the OpenAI API client
-openai.api_key = 'YOUR_OPENAI_API_KEY'  # Replace with your actual API key
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 def call_gpt(prompt):
     messages = [

@@ -1,3 +1,4 @@
+from openai import OpenAI
 import openai
 import os
 from docx import Document
@@ -5,6 +6,8 @@ import threading
 import time
 from datetime import datetime
 from tqdm import tqdm
+
+client = OpenAI()
 
 # Set up the OpenAI API
 openai.api_key = os.getenv("OPENAI_API_KEY")
@@ -41,17 +44,15 @@ def generate_section_content(section: str) -> str:
     ]
 
     # Call the OpenAI API
-    response = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",
+    response = client.chat.completions.create(
+        model="gpt-4-0125-preview",
         messages=messages,
         max_tokens=2048,
-        n=1,
-        stop=None,
-        temperature=0.7,
+        temperature=0.5,
     )
 
     # Return the generated text
-    return response['choices'][0]['message']['content'].strip()
+    return response.choices[0].message.content.strip()
 
 # Function to convert markdown text to a Word document
 def markdown_to_docx(markdown_text: str, output_file: str):
@@ -98,6 +99,7 @@ for section in risk_assessment_outline:
         report.append(f"## {section}\n{content}")
     except Exception as e:
         print(f"\nAn error occurred during the API call: {e}")
+        api_call_completed = True
         exit()
     pbar.update(1)
 
