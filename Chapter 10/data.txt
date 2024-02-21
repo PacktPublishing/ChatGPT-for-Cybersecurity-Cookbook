@@ -1,0 +1,846 @@
+
+Host Name:                 TEST_SYSTEM
+OS Name:                   Microsoft Windows Server 2008 R2 Standard 
+OS Version:                6.1.7601 Service Pack 1 Build 7601
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Server
+OS Build Type:             Multiprocessor Free
+Registered Owner:          Windows User
+Registered Organization:   
+Product ID:                00477-OEM-8400101-10502
+Original Install Date:     6/24/2013, 7:54:43 AM
+System Boot Time:          8/23/2023, 12:27:31 PM
+System Manufacturer:       Dell Inc.
+System Model:              PowerEdge R320
+System Type:               x64-based PC
+Processor(s):              1 Processor(s) Installed.
+                           [01]: Intel64 Family 6 Model 45 Stepping 7 GenuineIntel ~1800 Mhz
+BIOS Version:              Dell Inc. 2.4.2, 1/29/2015
+Windows Directory:         C:\Windows
+System Directory:          C:\Windows\system32
+Boot Device:               \Device\HarddiskVolume1
+System Locale:             en-us;English (United States)
+Input Locale:              en-us;English (United States)
+Time Zone:                 (UTC-06:00) Central Time (US & Canada)
+Total Physical Memory:     8,147 MB
+Available Physical Memory: 6,267 MB
+Virtual Memory: Max Size:  16,291 MB
+Virtual Memory: Available: 14,479 MB
+Virtual Memory: In Use:    1,812 MB
+Page File Location(s):     C:\pagefile.sys
+Domain:                    WORKGROUP
+Logon Server:              \\DOMAIN_SERVER
+Hotfix(s):                 95 Hotfix(s) Installed.
+                           [01]: KB2506212
+                           [02]: KB2509553
+                           [03]: KB2511455
+                           [04]: KB2536275
+                           [05]: KB2536276
+                           [06]: KB2544893
+                           [07]: KB2560656
+                           [08]: KB2564958
+                           [09]: KB2570947
+                           [10]: KB2584146
+                           [11]: KB2585542
+                           [12]: KB2604115
+                           [13]: KB2618451
+                           [14]: KB2620704
+                           [15]: KB2621440
+                           [16]: KB2631813
+                           [17]: KB2641690
+                           [18]: KB2643719
+                           [19]: KB2644615
+                           [20]: KB2645640
+                           [21]: KB2654428
+                           [22]: KB2656356
+                           [23]: KB2656411
+                           [24]: KB2658846
+                           [25]: KB2659262
+                           [26]: KB2661254
+                           [27]: KB2676562
+                           [28]: KB2685939
+                           [29]: KB2688338
+                           [30]: KB2690533
+                           [31]: KB2691442
+                           [32]: KB2706045
+                           [33]: KB2712808
+                           [34]: KB2719033
+                           [35]: KB2729452
+                           [36]: KB2736422
+                           [37]: KB2742599
+                           [38]: KB2743555
+                           [39]: KB2749655
+                           [40]: KB2753842
+                           [41]: KB2757638
+                           [42]: KB2758857
+                           [43]: KB2765809
+                           [44]: KB2769369
+                           [45]: KB2770660
+                           [46]: KB2785220
+                           [47]: KB2804579
+                           [48]: KB2807986
+                           [49]: KB2808735
+                           [50]: KB2813170
+                           [51]: KB2813347
+                           [52]: KB2813430
+                           [53]: KB2817183
+                           [54]: KB2830290
+                           [55]: KB2832414
+                           [56]: KB2833946
+                           [57]: KB2834886
+                           [58]: KB2835361
+                           [59]: KB2839894
+                           [60]: KB2840631
+                           [61]: KB2844286
+                           [62]: KB2849470
+                           [63]: KB2850851
+                           [64]: KB2859537
+                           [65]: KB2862772
+                           [66]: KB2868623
+                           [67]: KB3080446
+                           [68]: KB3081320
+                           [69]: KB3088195
+                           [70]: KB3092601
+                           [71]: KB3097877
+                           [72]: KB3097989
+                           [73]: KB3099862
+                           [74]: KB3101722
+                           [75]: KB3101746
+                           [76]: KB3108371
+                           [77]: KB3108381
+                           [78]: KB3108664
+                           [79]: KB3108670
+                           [80]: KB3109094
+                           [81]: KB3109103
+                           [82]: KB3109560
+                           [83]: KB3110329
+                           [84]: KB3121212
+                           [85]: KB3121918
+                           [86]: KB3122648
+                           [87]: KB3124000
+                           [88]: KB3124001
+                           [89]: KB3126587
+                           [90]: KB3126593
+                           [91]: KB3127220
+                           [92]: KB3133043
+                           [93]: KB3134214
+                           [94]: KB958488
+                           [95]: KB976902
+Network Card(s):           5 NIC(s) Installed.
+                           [01]: Broadcom NetXtreme Gigabit Ethernet
+                                 Connection Name: IET Ethernet Connection
+                                 DHCP Enabled:    No
+                                 IP address(es)
+                                 [01]: 172.16.14.151
+                           [02]: Broadcom NetXtreme Gigabit Ethernet
+                                 Connection Name: Disabled
+                                 Status:          Hardware not present
+                           [03]: Broadcom NetXtreme Gigabit Ethernet
+                                 Connection Name: SPlus Network Connection 1
+                                 DHCP Enabled:    Yes
+                                 DHCP Server:     N/A
+                                 IP address(es)
+                           [04]: Broadcom NetXtreme Gigabit Ethernet
+                                 Connection Name: SPlus Network Connection 2
+                                 DHCP Enabled:    Yes
+                                 DHCP Server:     N/A
+                                 IP address(es)
+                           [05]: BASP Virtual Adapter
+                                 Connection Name: SPlus Teamed Network
+                                 DHCP Enabled:    No
+                                 IP address(es)
+                                 [01]: 172.16.4.51
+
+#### hostname ####  
+TEST_SYSTEM
+#### Date/Time ### 
+Thu 02/15/2024 
+09:59 AM
+### arp -a ### 
+
+Interface: 172.16.14.151 --- 0x13
+  Internet Address      Physical Address      Type
+  172.16.14.152         b8-9b-e4-02-0a-54     dynamic   
+  172.16.255.255        ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+
+Interface: 172.16.4.51 --- 0x17
+  Internet Address      Physical Address      Type
+  172.16.4.11           90-b1-1c-54-80-ae     dynamic   
+  172.16.4.12           90-b1-1c-55-b2-f7     dynamic   
+  172.16.4.31           90-b1-1c-55-b8-28     dynamic   
+  172.16.4.41           00-0a-f7-15-fe-bf     dynamic   
+  172.16.4.42           b8-ca-3a-84-2c-c2     dynamic   
+  172.16.4.43           00-0a-f7-15-fc-f6     dynamic   
+  172.16.4.44           00-0a-f7-15-fd-b6     dynamic   
+  172.16.4.199          2c-44-fd-04-61-f7     dynamic   
+  172.16.4.255          ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+### ipconfig /all ### 
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : TEST_SYSTEM
+   Primary Dns Suffix  . . . . . . . : 
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+
+Ethernet adapter SPlus Teamed Network:
+
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : BASP Virtual Adapter
+   Physical Address. . . . . . . . . : 90-B1-1C-54-78-47
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+   IPv4 Address. . . . . . . . . . . : 172.16.4.51(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Ethernet adapter IET Ethernet Connection:
+
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Broadcom NetXtreme Gigabit Ethernet #5
+   Physical Address. . . . . . . . . : 00-10-18-F6-81-60
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+   IPv4 Address. . . . . . . . . . . : 172.16.14.151(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.0.0
+   Default Gateway . . . . . . . . . : 
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Tunnel adapter isatap.{6D26DB1C-45D5-45E8-8C23-9AC2FCED915E}:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Microsoft ISATAP Adapter
+   Physical Address. . . . . . . . . : 00-00-00-00-00-00-00-E0
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+
+Tunnel adapter isatap.{CBC57CC7-1072-4C47-8A85-183B99F20632}:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Microsoft ISATAP Adapter #2
+   Physical Address. . . . . . . . . : 00-00-00-00-00-00-00-E0
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+
+Tunnel adapter Teredo Tunneling Pseudo-Interface:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Teredo Tunneling Pseudo-Interface
+   Physical Address. . . . . . . . . : 00-00-00-00-00-00-00-E0
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+### route print ### 
+===========================================================================
+Interface List
+ 23...90 b1 1c 54 78 47 ......BASP Virtual Adapter
+ 19...00 10 18 f6 81 60 ......Broadcom NetXtreme Gigabit Ethernet #5
+  1...........................Software Loopback Interface 1
+ 12...00 00 00 00 00 00 00 e0 Microsoft ISATAP Adapter
+ 14...00 00 00 00 00 00 00 e0 Microsoft ISATAP Adapter #2
+ 24...00 00 00 00 00 00 00 e0 Teredo Tunneling Pseudo-Interface
+===========================================================================
+
+IPv4 Route Table
+===========================================================================
+Active Routes:
+Network Destination        Netmask          Gateway       Interface  Metric
+        127.0.0.0        255.0.0.0         On-link         127.0.0.1    306
+        127.0.0.1  255.255.255.255         On-link         127.0.0.1    306
+  127.255.255.255  255.255.255.255         On-link         127.0.0.1    306
+       172.16.0.0      255.255.0.0         On-link     172.16.14.151    276
+       172.16.4.0    255.255.255.0         On-link       172.16.4.51    261
+      172.16.4.51  255.255.255.255         On-link       172.16.4.51    261
+     172.16.4.255  255.255.255.255         On-link       172.16.4.51    261
+    172.16.14.151  255.255.255.255         On-link     172.16.14.151    276
+   172.16.255.255  255.255.255.255         On-link     172.16.14.151    276
+        224.0.0.0        240.0.0.0         On-link         127.0.0.1    306
+        224.0.0.0        240.0.0.0         On-link     172.16.14.151    276
+        224.0.0.0        240.0.0.0         On-link       172.16.4.51    261
+  255.255.255.255  255.255.255.255         On-link         127.0.0.1    306
+  255.255.255.255  255.255.255.255         On-link     172.16.14.151    276
+  255.255.255.255  255.255.255.255         On-link       172.16.4.51    261
+===========================================================================
+Persistent Routes:
+  None
+
+IPv6 Route Table
+===========================================================================
+Active Routes:
+ If Metric Network Destination      Gateway
+  1    306 ::1/128                  On-link
+  1    306 ff00::/8                 On-link
+===========================================================================
+Persistent Routes:
+  None
+### netstat -oan ### 
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State           PID
+  TCP    0.0.0.0:80             0.0.0.0:0              LISTENING       4
+  TCP    0.0.0.0:135            0.0.0.0:0              LISTENING       728
+  TCP    0.0.0.0:445            0.0.0.0:0              LISTENING       4
+  TCP    0.0.0.0:1311           0.0.0.0:0              LISTENING       3296
+  TCP    0.0.0.0:3389           0.0.0.0:0              LISTENING       4000
+  TCP    0.0.0.0:5001           0.0.0.0:0              LISTENING       1612
+  TCP    0.0.0.0:5002           0.0.0.0:0              LISTENING       3576
+  TCP    0.0.0.0:5003           0.0.0.0:0              LISTENING       3616
+  TCP    0.0.0.0:6002           0.0.0.0:0              LISTENING       1992
+  TCP    0.0.0.0:7001           0.0.0.0:0              LISTENING       1860
+  TCP    0.0.0.0:7002           0.0.0.0:0              LISTENING       1860
+  TCP    0.0.0.0:7003           0.0.0.0:0              LISTENING       4
+  TCP    0.0.0.0:47001          0.0.0.0:0              LISTENING       4
+  TCP    0.0.0.0:49152          0.0.0.0:0              LISTENING       436
+  TCP    0.0.0.0:49153          0.0.0.0:0              LISTENING       824
+  TCP    0.0.0.0:49154          0.0.0.0:0              LISTENING       868
+  TCP    0.0.0.0:49157          0.0.0.0:0              LISTENING       540
+  TCP    0.0.0.0:49162          0.0.0.0:0              LISTENING       1088
+  TCP    0.0.0.0:49163          0.0.0.0:0              LISTENING       532
+  TCP    0.0.0.0:49164          0.0.0.0:0              LISTENING       4044
+  TCP    127.0.0.1:4242         0.0.0.0:0              LISTENING       1620
+  TCP    127.0.0.1:49249        0.0.0.0:0              LISTENING       4216
+  TCP    172.16.4.51:80         172.16.4.51:49161      ESTABLISHED     4
+  TCP    172.16.4.51:139        0.0.0.0:0              LISTENING       4
+  TCP    172.16.4.51:49161      172.16.4.51:80         ESTABLISHED     1180
+  TCP    172.16.4.51:49162      172.16.4.41:50368      ESTABLISHED     1088
+  TCP    172.16.4.51:50436      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50437      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50438      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50439      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50440      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50441      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50442      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50443      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50444      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50445      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50446      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50447      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50449      172.16.4.12:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50450      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50451      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50452      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50453      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50454      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50455      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50456      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50457      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50458      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50459      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50460      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50461      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50462      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50463      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50464      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50465      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50466      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50467      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50468      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50469      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50470      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50471      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50472      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50473      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50474      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50475      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50476      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50477      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50478      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50479      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50480      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50482      172.16.4.12:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50483      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50484      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50485      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50486      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50487      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50488      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50489      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50490      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50491      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50492      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50493      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50494      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50495      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50496      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50497      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50498      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50499      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50500      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50501      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50502      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50503      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50504      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50505      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50506      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50507      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50508      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50509      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50510      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50511      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50512      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50514      172.16.4.12:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50515      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50516      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50517      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50518      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50519      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50520      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50521      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50522      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50523      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50524      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50525      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50526      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50527      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50528      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50529      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50530      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50531      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50532      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50533      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50534      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50535      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50536      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50537      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50538      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50539      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50540      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50541      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50542      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50543      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50544      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50545      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50547      172.16.4.12:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50548      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50549      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50550      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50551      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50552      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50553      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50554      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50555      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50556      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50557      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50558      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50559      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50560      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50561      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50562      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50563      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:59133      172.16.4.11:5002       ESTABLISHED     4028
+  TCP    172.16.14.151:139      0.0.0.0:0              LISTENING       4
+  TCP    172.16.14.151:51447    172.16.14.152:3000     ESTABLISHED     4748
+  TCP    [::]:80                [::]:0                 LISTENING       4
+  TCP    [::]:135               [::]:0                 LISTENING       728
+  TCP    [::]:445               [::]:0                 LISTENING       4
+  TCP    [::]:1311              [::]:0                 LISTENING       3296
+  TCP    [::]:3389              [::]:0                 LISTENING       4000
+  TCP    [::]:7003              [::]:0                 LISTENING       4
+  TCP    [::]:47001             [::]:0                 LISTENING       4
+  TCP    [::]:49152             [::]:0                 LISTENING       436
+  TCP    [::]:49153             [::]:0                 LISTENING       824
+  TCP    [::]:49154             [::]:0                 LISTENING       868
+  TCP    [::]:49157             [::]:0                 LISTENING       540
+  TCP    [::]:49162             [::]:0                 LISTENING       1088
+  TCP    [::]:49163             [::]:0                 LISTENING       532
+  TCP    [::]:49164             [::]:0                 LISTENING       4044
+  UDP    0.0.0.0:123            *:*                                    920
+  UDP    0.0.0.0:500            *:*                                    868
+  UDP    0.0.0.0:4500           *:*                                    868
+  UDP    0.0.0.0:5355           *:*                                    140
+  UDP    0.0.0.0:7001           *:*                                    1860
+  UDP    0.0.0.0:54615          *:*                                    1088
+  UDP    127.0.0.1:6001         *:*                                    1992
+  UDP    172.16.4.51:137        *:*                                    4
+  UDP    172.16.4.51:138        *:*                                    4
+  UDP    172.16.4.51:6001       *:*                                    1992
+  UDP    172.16.14.151:137      *:*                                    4
+  UDP    172.16.14.151:138      *:*                                    4
+  UDP    172.16.14.151:6001     *:*                                    1992
+  UDP    [::]:123               *:*                                    920
+  UDP    [::]:500               *:*                                    868
+  UDP    [::]:4500              *:*                                    868
+### netstat -boan ### 
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State           PID
+  TCP    0.0.0.0:80             0.0.0.0:0              LISTENING       4
+ Can not obtain ownership information
+  TCP    0.0.0.0:135            0.0.0.0:0              LISTENING       728
+  RpcSs
+ [svchost.exe]
+  TCP    0.0.0.0:445            0.0.0.0:0              LISTENING       4
+ Can not obtain ownership information
+  TCP    0.0.0.0:1311           0.0.0.0:0              LISTENING       3296
+ [dsm_om_connsvc32.exe]
+  TCP    0.0.0.0:3389           0.0.0.0:0              LISTENING       4000
+  TermService
+ [svchost.exe]
+  TCP    0.0.0.0:5001           0.0.0.0:0              LISTENING       1612
+ [APMSNetServer.exe]
+  TCP    0.0.0.0:5002           0.0.0.0:0              LISTENING       3576
+ [ApmsNetConnection.exe]
+  TCP    0.0.0.0:5003           0.0.0.0:0              LISTENING       3616
+ [ApmsNetConnection.exe]
+  TCP    0.0.0.0:6002           0.0.0.0:0              LISTENING       1992
+ [spnsrvnt.exe]
+  TCP    0.0.0.0:7001           0.0.0.0:0              LISTENING       1860
+ [sntlkeyssrvr.exe]
+  TCP    0.0.0.0:7002           0.0.0.0:0              LISTENING       1860
+ [sntlkeyssrvr.exe]
+  TCP    0.0.0.0:7003           0.0.0.0:0              LISTENING       4
+ Can not obtain ownership information
+  TCP    0.0.0.0:47001          0.0.0.0:0              LISTENING       4
+ Can not obtain ownership information
+  TCP    0.0.0.0:49152          0.0.0.0:0              LISTENING       436
+ [wininit.exe]
+  TCP    0.0.0.0:49153          0.0.0.0:0              LISTENING       824
+  eventlog
+ [svchost.exe]
+  TCP    0.0.0.0:49154          0.0.0.0:0              LISTENING       868
+  Schedule
+ [svchost.exe]
+  TCP    0.0.0.0:49157          0.0.0.0:0              LISTENING       540
+ [lsass.exe]
+  TCP    0.0.0.0:49162          0.0.0.0:0              LISTENING       1088
+ [spoolsv.exe]
+  TCP    0.0.0.0:49163          0.0.0.0:0              LISTENING       532
+ [services.exe]
+  TCP    0.0.0.0:49164          0.0.0.0:0              LISTENING       4044
+  PolicyAgent
+ [svchost.exe]
+  TCP    127.0.0.1:4242         0.0.0.0:0              LISTENING       1620
+ [RedProxy.exe]
+  TCP    127.0.0.1:49249        0.0.0.0:0              LISTENING       4216
+ [cus.exe]
+  TCP    172.16.4.51:80         172.16.4.51:49161      ESTABLISHED     4
+ Can not obtain ownership information
+  TCP    172.16.4.51:139        0.0.0.0:0              LISTENING       4
+ Can not obtain ownership information
+  TCP    172.16.4.51:49161      172.16.4.51:80         ESTABLISHED     1180
+ [AbbClientLicenseProvider.exe]
+  TCP    172.16.4.51:49162      172.16.4.41:50368      ESTABLISHED     1088
+ [spoolsv.exe]
+  TCP    172.16.4.51:50436      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50437      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50438      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50439      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50440      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50441      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50442      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50443      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50444      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50445      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50446      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50447      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50449      172.16.4.12:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50450      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50451      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50452      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50453      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50454      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50455      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50456      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50457      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50458      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50459      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50460      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50461      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50462      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50463      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50464      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50465      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50466      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50467      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50468      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50469      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50470      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50471      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50472      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50473      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50474      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50475      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50476      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50477      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50478      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50479      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50480      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50482      172.16.4.12:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50483      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50484      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50485      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50486      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50487      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50488      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50489      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50490      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50491      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50492      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50493      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50494      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50495      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50496      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50497      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50498      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50499      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50500      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50501      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50502      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50503      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50504      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50505      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50506      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50507      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50508      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50509      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50510      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50511      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50512      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50514      172.16.4.12:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50515      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50516      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50517      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50518      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50519      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50520      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50521      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50522      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50523      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50524      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50525      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50526      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50527      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50528      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50529      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50530      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50531      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50532      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50533      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50534      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50535      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50536      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50537      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50538      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50539      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50540      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50541      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50542      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50543      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50544      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50545      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50547      172.16.4.12:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50548      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50549      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50550      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50551      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50552      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50553      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50554      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50555      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50556      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50557      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50558      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50559      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50560      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50561      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50562      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:50563      172.16.4.11:5002       TIME_WAIT       0
+  TCP    172.16.4.51:59133      172.16.4.11:5002       ESTABLISHED     4028
+ [PwMonitor.exe]
+  TCP    172.16.14.151:139      0.0.0.0:0              LISTENING       4
+ Can not obtain ownership information
+  TCP    172.16.14.151:51447    172.16.14.152:3000     ESTABLISHED     4748
+ [GMC32.exe]
+  TCP    [::]:80                [::]:0                 LISTENING       4
+ Can not obtain ownership information
+  TCP    [::]:135               [::]:0                 LISTENING       728
+  RpcSs
+ [svchost.exe]
+  TCP    [::]:445               [::]:0                 LISTENING       4
+ Can not obtain ownership information
+  TCP    [::]:1311              [::]:0                 LISTENING       3296
+ [dsm_om_connsvc32.exe]
+  TCP    [::]:3389              [::]:0                 LISTENING       4000
+  TermService
+ [svchost.exe]
+  TCP    [::]:7003              [::]:0                 LISTENING       4
+ Can not obtain ownership information
+  TCP    [::]:47001             [::]:0                 LISTENING       4
+ Can not obtain ownership information
+  TCP    [::]:49152             [::]:0                 LISTENING       436
+ [wininit.exe]
+  TCP    [::]:49153             [::]:0                 LISTENING       824
+  eventlog
+ [svchost.exe]
+  TCP    [::]:49154             [::]:0                 LISTENING       868
+  Schedule
+ [svchost.exe]
+  TCP    [::]:49157             [::]:0                 LISTENING       540
+ [lsass.exe]
+  TCP    [::]:49162             [::]:0                 LISTENING       1088
+ [spoolsv.exe]
+  TCP    [::]:49163             [::]:0                 LISTENING       532
+ [services.exe]
+  TCP    [::]:49164             [::]:0                 LISTENING       4044
+  PolicyAgent
+ [svchost.exe]
+  UDP    0.0.0.0:123            *:*                                    920
+  W32Time
+ [svchost.exe]
+  UDP    0.0.0.0:500            *:*                                    868
+  IKEEXT
+ [svchost.exe]
+  UDP    0.0.0.0:4500           *:*                                    868
+  IKEEXT
+ [svchost.exe]
+  UDP    0.0.0.0:5355           *:*                                    140
+  Dnscache
+ [svchost.exe]
+  UDP    0.0.0.0:7001           *:*                                    1860
+ [sntlkeyssrvr.exe]
+  UDP    0.0.0.0:54615          *:*                                    1088
+ [spoolsv.exe]
+  UDP    127.0.0.1:6001         *:*                                    1992
+ [spnsrvnt.exe]
+  UDP    172.16.4.51:137        *:*                                    4
+ Can not obtain ownership information
+  UDP    172.16.4.51:138        *:*                                    4
+ Can not obtain ownership information
+  UDP    172.16.4.51:6001       *:*                                    1992
+ [spnsrvnt.exe]
+  UDP    172.16.14.151:137      *:*                                    4
+ Can not obtain ownership information
+  UDP    172.16.14.151:138      *:*                                    4
+ Can not obtain ownership information
+  UDP    172.16.14.151:6001     *:*                                    1992
+ [spnsrvnt.exe]
+  UDP    [::]:123               *:*                                    920
+  W32Time
+ [svchost.exe]
+  UDP    [::]:500               *:*                                    868
+  IKEEXT
+ [svchost.exe]
+  UDP    [::]:4500              *:*                                    868
+  IKEEXT
+ [svchost.exe]
+### netsh tcp ### 
+
+Protocol tcp Dynamic Port Range
+---------------------------------
+Start Port      : 49152
+Number of Ports : 16384
+
+### netsh udp ### 
+
+Protocol udp Dynamic Port Range
+---------------------------------
+Start Port      : 49152
+Number of Ports : 16384
+
+### tasklist /FI "PID eq 4" ### 
+
+Image Name                     PID Session Name        Session#    Mem Usage
+========================= ======== ================ =========== ============
+System                           4 Services                   0        300 K
+### tasklist /SVC ### 
+
+Image Name                     PID Services                                    
+========================= ======== ============================================
+System Idle Process              0 N/A                                         
+System                           4 N/A                                         
+smss.exe                       272 N/A                                         
+csrss.exe                      380 N/A                                         
+wininit.exe                    436 N/A                                         
+services.exe                   532 N/A                                         
+lsass.exe                      540 EFS, SamSs                                  
+lsm.exe                        548 N/A                                         
+svchost.exe                    648 DcomLaunch, PlugPlay, Power                 
+svchost.exe                    728 RpcEptMapper, RpcSs                         
+svchost.exe                    824 AudioSrv, Dhcp, eventlog, lmhosts           
+svchost.exe                    868 AeLookupSvc, CertPropSvc, gpsvc, IKEEXT,    
+                                   iphlpsvc, LanmanServer, MMCSS, ProfSvc,     
+                                   Schedule, SENS, SessionEnv,                 
+                                   ShellHWDetection, Winmgmt, wuauserv         
+svchost.exe                    920 EventSystem, fdPHost, netprofm, nsi, W32Tim 
+svchost.exe                    984 AudioEndpointBuilder, Netman, TrkWks,       
+                                   UmRdpService, UxSms                         
+svchost.exe                    140 CryptSvc, Dnscache, LanmanWorkstation,      
+                                   NlaSvc, WinRM                               
+svchost.exe                    664 BFE, DPS, MpsSvc                            
+spoolsv.exe                   1088 Spooler                                     
+AbbClientLicenseProvider.     1180 ABB Client License Provider                 
+CSAWindowsEventForwarder.     1208 ABB S+ CSA Windows Event Forwarder          
+armsvc.exe                    1284 AdobeARMservice                             
+svchost.exe                   1308 AppHostSvc                                  
+dsm_sa_eventmgr32.exe         1336 dcevt32                                     
+dsm_sa_datamgr32.exe          1372 dcstor32                                    
+inetinfo.exe                  1428 IISADMIN                                    
+FrameworkService.exe          1532 McAfeeFramework                             
+VsTskMgr.exe                  1676 McTaskManager                               
+mfevtps.exe                   1700 mfevtp                                      
+mr2kserv.exe                  1728 mr2kserv                                    
+mfeann.exe                    1776 N/A                                         
+conhost.exe                   1796 N/A                                         
+SMSvcHost.exe                 1808 NetPipeActivator, NetTcpActivator,          
+                                   NetTcpPortSharing                           
+naPrdMgr.exe                  1916 N/A                                         
+dsm_om_shrsvc32.exe           1124 omsad                                       
+RedProxy.exe                  1620 PlaCoRedProxy                               
+svchost.exe                   1632 RemoteRegistry                              
+sntlkeyssrvr.exe              1860 SentinelKeysServer                          
+spnsrvnt.exe                  1992 SentinelProtectionServer                    
+sntlsrtsrvr.exe               2108 SentinelSecurityRuntime                     
+svchost.exe                   2140 W3SVC, WAS                                  
+mcshield.exe                  2180 McShield                                    
+WmiPrvSE.exe                  2604 N/A                                         
+dsm_om_connsvc32.exe          3296 Server Administrator                        
+svchost.exe                   4000 TermService                                 
+svchost.exe                   4044 PolicyAgent                                 
+ApmsSvc.exe                   2544 apmssvc                                     
+APMSNetServer.exe             1612 N/A                                         
+PwMonitorSrv.exe              3336 N/A                                         
+conhost.exe                   3536 N/A                                         
+APMSNetConnection.exe         3576 N/A                                         
+conhost.exe                   3588 N/A                                         
+APMSNetConnection.exe         3616 N/A                                         
+conhost.exe                   3628 N/A                                         
+svchost.exe                   3712 FontCache                                   
+msdtc.exe                     2964 MSDTC                                       
+csrss.exe                     1580 N/A                                         
+winlogon.exe                  3932 N/A                                         
+taskhost.exe                  1888 N/A                                         
+dwm.exe                       2584 N/A                                         
+explorer.exe                  4072 N/A                                         
+MtxHotPlugService.exe         3820 N/A                                         
+BACSTray.exe                   628 N/A                                         
+shstat.exe                    3304 N/A                                         
+PwMonitor.exe                 4028 N/A                                         
+cus.exe                       4216 N/A                                         
+ComposerHarmonyWS.exe         4292 N/A                                         
+GMC32.exe                     2572 N/A                                         
+splwow64.exe                  4264 N/A                                         
+ControllerConfigurationVi     4368 N/A                                         
+GMC32.exe                     4388 N/A                                         
+ControllerConfigurationVi     4984 N/A                                         
+Composer.exe                  3552 N/A                                         
+DbServerX.exe                 4640 N/A                                         
+GMC32.exe                     4748 N/A                                         
+w3wp.exe                      3064 N/A                                         
+cmd.exe                       3216 N/A                                         
+conhost.exe                   4812 N/A                                         
+cmd.exe                       2664 N/A                                         
+conhost.exe                   1064 N/A                                         
+WmiPrvSE.exe                  4548 N/A                                         
+WmiPrvSE.exe                  1032 N/A                                         
+TrustedInstaller.exe          4904 TrustedInstaller                            
+tasklist.exe                  4204 N/A                                         
