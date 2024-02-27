@@ -1,9 +1,12 @@
 import openai
+from openai import OpenAI
 import os
 import threading
 import time
 from datetime import datetime
 from tqdm import tqdm
+
+client = OpenAI() # Create an instance of the OpenAI class
 
 # Set up the OpenAI API
 openai.api_key = os.getenv("OPENAI_API_KEY")
@@ -19,7 +22,7 @@ def generate_question(categories: str) -> str:
     ]
 
     # Call the OpenAI API
-    response = openai.ChatCompletion.create(
+    response = client.chat.completions.create( # Use the new API to generate the assessment questions
         model="gpt-3.5-turbo",
         messages=messages,
         max_tokens=2048,
@@ -29,7 +32,7 @@ def generate_question(categories: str) -> str:
     )
 
     # Return the generated text
-    return response['choices'][0]['message']['content'].strip()
+    return response.choices[0].message.content.strip() # Updated response object attribute for the new OpenAI API
 
 # Function to display elapsed time while waiting for the API call
 def display_elapsed_time():
