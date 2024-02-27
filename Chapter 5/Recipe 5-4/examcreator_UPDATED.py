@@ -1,8 +1,11 @@
 import openai
+from openai import OpenAI # Import the new OpenAI class
 import os
 import threading
 import time
 from datetime import datetime
+
+client = OpenAI() # Create an instance of the OpenAI class
 
 # Set up the OpenAI API
 openai.api_key = os.getenv("OPENAI_API_KEY")
@@ -18,7 +21,7 @@ def generate_email_simulations() -> str:
     ]
 
     # Call the OpenAI API
-    response = openai.ChatCompletion.create(
+    response = client.chat.completions.create( # Use the new API to generate the exam questions
         model="gpt-3.5-turbo",
         messages=messages,
         max_tokens=2048,
@@ -28,7 +31,7 @@ def generate_email_simulations() -> str:
     )
 
     # Return the generated text
-    return response['choices'][0]['message']['content'].strip()
+    return response.choices[0].message.content.strip() # Updated response object attribute for the new OpenAI API
 
 # Function to display elapsed time while waiting for the API call
 def display_elapsed_time():
