@@ -1,4 +1,5 @@
 import openai
+from openai import OpenAI
 import os
 import threading
 import time
@@ -6,6 +7,8 @@ from datetime import datetime
 from tqdm import tqdm
 from pptx import Presentation
 from pptx.exc import PackageNotFoundError
+
+client = OpenAI() # Create an instance of the OpenAI class
 
 # Set up the OpenAI API
 openai.api_key = os.getenv("OPENAI_API_KEY")
@@ -66,8 +69,8 @@ messages=[
 
 print(f"\nGenerating training outline...")
 try:
-    response = openai.ChatCompletion.create(
-        model="gpt-4",
+    response = client.chat.completions.create(
+        model="gpt-3.5-turbo",
         messages=messages,
         max_tokens=2048,
         n=1,
@@ -79,7 +82,7 @@ except Exception as e:
     exit(1)
 
 # Get outline
-outline = response['choices'][0]['message']['content'].strip()
+outline = response.choices[0].message.content.strip()
 
 print(outline + "\n")
 
@@ -115,8 +118,8 @@ for i, section in tqdm(enumerate(sections, start=1), total=len(sections), leave=
     api_call_completed.clear()
 
     try:
-        response = openai.ChatCompletion.create(
-            model="gpt-4",
+        response = client.chat.completions.create(
+            model="gpt-3.5-turbo",
             messages=messages,
             max_tokens=2048,
             n=1,
@@ -131,7 +134,7 @@ for i, section in tqdm(enumerate(sections, start=1), total=len(sections), leave=
     api_call_completed.set()
 
     # Get detailed info
-    slide_content = response['choices'][0]['message']['content'].strip()
+    slide_content = response.choices[0].message.content.strip()
 
     # Create a slide with the detailed info
     if not content_to_slide(slide_content, prs):
