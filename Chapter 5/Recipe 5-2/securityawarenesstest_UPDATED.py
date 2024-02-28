@@ -1,5 +1,5 @@
 import openai
-from openai import OpenAI
+from openai import OpenAI # Import the OpenAI class for the new API
 import os
 import threading
 import time
