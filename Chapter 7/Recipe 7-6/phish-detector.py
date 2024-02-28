@@ -2,8 +2,11 @@ import imaplib
 import poplib
 import email
 import openai
+from openai import OpenAI
 import os
 from email.header import decode_header
+
+client = OpenAI()
 
 # Initialize the OpenAI API client
 openai.api_key = os.getenv("OPENAI_API_KEY")
@@ -19,7 +22,7 @@ def call_gpt(prompt):
             "content": prompt
         }
     ]
-    response = openai.ChatCompletion.create(
+    response = client.chat.completions.create(
         model="gpt-3.5-turbo",
         messages=messages,
         max_tokens=2048,
@@ -27,7 +30,7 @@ def call_gpt(prompt):
         stop=None,
         temperature=0.7
     )
-    return response.choices[0].message['content'].strip()
+    return response.choices[0].message.content.strip()
 
 # Email account details
 EMAIL = 'your_email@gmail.com'
