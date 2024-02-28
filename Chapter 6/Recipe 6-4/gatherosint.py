@@ -1,7 +1,10 @@
 import openai
+from openai import OpenAI
 import os
 from docx import Document
 from datetime import datetime
+
+client = OpenAI()  
 
 # Set up the OpenAI API
 openai.api_key = os.getenv("OPENAI_API_KEY")
@@ -14,8 +17,8 @@ def prompt_osint_analysis(job_desc):
     ]
 
     # Call the OpenAI API
-    response = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo-16k",
+    response = client.chat.completions.create(
+        model="gpt-3.5-turbo",
         messages=messages,
         max_tokens=2048,
         n=1,
@@ -24,7 +27,7 @@ def prompt_osint_analysis(job_desc):
     )
 
     # Return the generated text
-    return response['choices'][0]['message']['content'].strip()
+    return response['choices'][0].message.content.strip()
 
 # Check if the data directory exists
 if not os.path.isdir('data'):
@@ -62,8 +65,8 @@ def generate_final_report(output_data):
     ]
 
     # Call the OpenAI API
-    response = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo-16k",
+    response = client.chat.completions.create(
+        model="gpt-3.5-turbo",
         messages=messages,
         max_tokens=2048,
         n=1,
@@ -72,7 +75,7 @@ def generate_final_report(output_data):
     )
 
     # Return the generated text
-    return response['choices'][0]['message']['content'].strip()
+    return response['choices'][0].message.content.strip()
 
 # Generate the report using the OpenAI API
 report = generate_final_report(output_data)
