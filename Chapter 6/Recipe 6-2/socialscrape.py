@@ -1,9 +1,22 @@
 # Import statements
+import openai
+from openai import OpenAI 
+import os
 import tweepy
 import facebook
 from selenium import webdriver 
 from selenium.webdriver.common.by import By
-import openai
+
+# API keys
+consumer_key = 'your_consumer_key'
+consumer_secret = 'your_consumer_secret'
+access_token = 'your_access_token'
+access_token_secret = 'your_access_token_secret'
+
+# OpenAI API key
+openai.api_key = os.getenv("OPENAI_API_KEY")
+
+client = OpenAI() 
 
 # Authenticate API keys
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
@@ -40,7 +53,7 @@ def prompt_osint_analysis(social_media_data):
     {"role": "user", "content": social_media_data},
   ]
 
-  response = openai.ChatCompletion.create(
+  response = client.chat.completions.create(
     model="gpt-3.5-turbo-16k",
     messages=messages, 
     max_tokens=2048,
@@ -49,7 +62,7 @@ def prompt_osint_analysis(social_media_data):
     temperature=0.7,
   )
 
-  return response['choices'][0]['message']['content'].strip()
+  return response.choices[0].message.conent.strip()
   
 # Generate intelligence report
 intelligence_report = prompt_osint_analysis(social_media_data)
