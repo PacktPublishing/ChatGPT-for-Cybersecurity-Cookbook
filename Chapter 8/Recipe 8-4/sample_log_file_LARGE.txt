@@ -1,0 +1,1000 @@
+[2024-02-01T01:50:17] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-01T02:41:18] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-01T04:52:47] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-01T05:05:29] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-01T05:34:14] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-01T05:51:33] Event: Unauthorized access attempt to server XYZ
+[2024-02-01T06:06:49] Event: Successful user login from IP 192.168.1.10
+[2024-02-01T06:33:04] Event: Successful user login from IP 192.168.1.10
+[2024-02-01T06:38:56] Event: Unexpected shutdown of server XYZ
+[2024-02-01T07:24:13] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-01T08:06:54] Event: Successful user login from IP 192.168.1.12
+[2024-02-01T08:22:37] Event: Malware detected on workstation ABC
+[2024-02-01T08:37:45] Event: High traffic detected from IP 203.0.113.5
+[2024-02-01T08:42:00] Event: Unauthorized access attempt to server XYZ
+[2024-02-01T09:51:11] Event: Successful user login from IP 192.168.1.12
+[2024-02-01T10:42:17] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-01T11:20:11] Event: High traffic detected from IP 203.0.113.5
+[2024-02-01T11:29:58] Event: High traffic detected from IP 203.0.113.5
+[2024-02-01T12:39:59] Event: Unauthorized access attempt to server XYZ
+[2024-02-01T14:04:05] Event: Successful user login from IP 192.168.1.10
+[2024-02-01T14:25:21] Event: Unexpected shutdown of server XYZ
+[2024-02-01T14:37:08] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-01T15:39:07] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-01T16:42:49] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-01T17:17:49] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-01T17:20:19] Event: Successful user login from IP 192.168.1.10
+[2024-02-01T17:44:59] Event: Unexpected shutdown of server XYZ
+[2024-02-01T18:03:09] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-01T21:07:09] Event: Successful user login from IP 192.168.1.10
+[2024-02-01T21:35:58] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-01T22:29:01] Event: Unauthorized access attempt to server XYZ
+[2024-02-01T22:46:25] Event: Unauthorized access attempt to server XYZ
+[2024-02-01T23:37:34] Event: Malware detected on workstation ABC
+[2024-02-02T00:06:51] Event: Successful user login from IP 192.168.1.10
+[2024-02-02T01:41:37] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-02T02:07:26] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-02T02:43:21] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-02T04:53:25] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-02T05:04:08] Event: Unauthorized access attempt to server XYZ
+[2024-02-02T05:44:54] Event: Unexpected shutdown of server XYZ
+[2024-02-02T05:54:23] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-02T05:56:35] Event: Successful user login from IP 192.168.1.10
+[2024-02-02T06:04:22] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-02T06:15:36] Event: Malware detected on workstation ABC
+[2024-02-02T06:37:49] Event: Successful user login from IP 192.168.1.12
+[2024-02-02T06:49:23] Event: Successful user login from IP 192.168.1.10
+[2024-02-02T07:56:41] Event: High traffic detected from IP 203.0.113.5
+[2024-02-02T08:25:29] Event: Unexpected shutdown of server XYZ
+[2024-02-02T08:39:44] Event: High traffic detected from IP 203.0.113.5
+[2024-02-02T08:41:48] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-02T09:19:14] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-02T09:58:42] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-02T10:04:31] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-02T10:57:45] Event: High traffic detected from IP 203.0.113.5
+[2024-02-02T11:19:53] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-02T11:41:15] Event: Successful user login from IP 192.168.1.10
+[2024-02-02T12:42:24] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-02T17:00:22] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-02T19:42:30] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-02T19:47:23] Event: Unauthorized access attempt to server XYZ
+[2024-02-02T20:28:07] Event: Unexpected shutdown of server XYZ
+[2024-02-02T21:16:53] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-02T22:18:12] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-02T23:14:05] Event: High traffic detected from IP 203.0.113.5
+[2024-02-03T00:01:51] Event: Successful user login from IP 192.168.1.10
+[2024-02-03T01:00:40] Event: Malware detected on workstation ABC
+[2024-02-03T02:07:11] Event: Unexpected shutdown of server XYZ
+[2024-02-03T02:13:32] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-03T02:46:46] Event: Successful user login from IP 192.168.1.12
+[2024-02-03T03:20:47] Event: High traffic detected from IP 203.0.113.5
+[2024-02-03T03:40:41] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-03T04:10:28] Event: Successful user login from IP 192.168.1.12
+[2024-02-03T05:09:01] Event: Unauthorized access attempt to server XYZ
+[2024-02-03T07:23:13] Event: Malware detected on workstation ABC
+[2024-02-03T07:26:53] Event: Unauthorized access attempt to server XYZ
+[2024-02-03T09:07:01] Event: Successful user login from IP 192.168.1.12
+[2024-02-03T10:23:11] Event: Unexpected shutdown of server XYZ
+[2024-02-03T10:40:45] Event: Successful user login from IP 192.168.1.10
+[2024-02-03T12:28:19] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-03T12:51:39] Event: High traffic detected from IP 203.0.113.5
+[2024-02-03T12:53:50] Event: Successful user login from IP 192.168.1.12
+[2024-02-03T12:56:18] Event: Successful user login from IP 192.168.1.10
+[2024-02-03T13:37:32] Event: Successful user login from IP 192.168.1.10
+[2024-02-03T14:12:48] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-03T14:34:44] Event: Successful user login from IP 192.168.1.12
+[2024-02-03T15:24:09] Event: Unexpected shutdown of server XYZ
+[2024-02-03T15:45:49] Event: Successful user login from IP 192.168.1.10
+[2024-02-03T16:47:13] Event: Unauthorized access attempt to server XYZ
+[2024-02-03T16:52:19] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-03T17:00:22] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-03T17:15:30] Event: High traffic detected from IP 203.0.113.5
+[2024-02-03T18:21:45] Event: Malware detected on workstation ABC
+[2024-02-03T18:23:52] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-03T19:50:00] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-03T19:58:45] Event: Successful user login from IP 192.168.1.10
+[2024-02-03T20:03:41] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-03T20:08:44] Event: High traffic detected from IP 203.0.113.5
+[2024-02-03T20:49:38] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-03T21:37:57] Event: Unexpected shutdown of server XYZ
+[2024-02-03T22:22:00] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-03T23:32:31] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-03T23:39:27] Event: Malware detected on workstation ABC
+[2024-02-04T00:07:29] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-04T00:10:41] Event: Unauthorized access attempt to server XYZ
+[2024-02-04T00:41:10] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-04T00:51:18] Event: Successful user login from IP 192.168.1.10
+[2024-02-04T01:56:09] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-04T02:23:18] Event: Unauthorized access attempt to server XYZ
+[2024-02-04T03:00:10] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-04T03:28:23] Event: Unauthorized access attempt to server XYZ
+[2024-02-04T03:44:54] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-04T05:31:14] Event: Unauthorized access attempt to server XYZ
+[2024-02-04T07:57:58] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-04T09:11:44] Event: Successful user login from IP 192.168.1.10
+[2024-02-04T11:59:21] Event: Successful user login from IP 192.168.1.12
+[2024-02-04T12:51:46] Event: High traffic detected from IP 203.0.113.5
+[2024-02-04T12:57:46] Event: Successful user login from IP 192.168.1.10
+[2024-02-04T13:42:04] Event: High traffic detected from IP 203.0.113.5
+[2024-02-04T14:37:08] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-04T14:54:26] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-04T15:42:58] Event: Malware detected on workstation ABC
+[2024-02-04T17:15:04] Event: Successful user login from IP 192.168.1.10
+[2024-02-04T19:04:39] Event: High traffic detected from IP 203.0.113.5
+[2024-02-04T20:19:46] Event: High traffic detected from IP 203.0.113.5
+[2024-02-04T21:33:04] Event: High traffic detected from IP 203.0.113.5
+[2024-02-04T21:49:40] Event: Successful user login from IP 192.168.1.10
+[2024-02-04T22:01:33] Event: Successful user login from IP 192.168.1.10
+[2024-02-04T22:21:44] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-04T22:35:34] Event: Unauthorized access attempt to server XYZ
+[2024-02-04T22:57:36] Event: Unexpected shutdown of server XYZ
+[2024-02-05T00:08:25] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-05T00:14:34] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-05T00:32:41] Event: Successful user login from IP 192.168.1.10
+[2024-02-05T00:33:17] Event: Unauthorized access attempt to server XYZ
+[2024-02-05T01:31:54] Event: Successful user login from IP 192.168.1.10
+[2024-02-05T01:57:09] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-05T02:09:10] Event: Successful user login from IP 192.168.1.10
+[2024-02-05T03:13:28] Event: Successful user login from IP 192.168.1.12
+[2024-02-05T03:47:01] Event: Malware detected on workstation ABC
+[2024-02-05T03:57:07] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-05T05:04:15] Event: Successful user login from IP 192.168.1.10
+[2024-02-05T05:20:08] Event: Malware detected on workstation ABC
+[2024-02-05T05:40:19] Event: High traffic detected from IP 203.0.113.5
+[2024-02-05T06:38:07] Event: Malware detected on workstation ABC
+[2024-02-05T06:48:53] Event: Malware detected on workstation ABC
+[2024-02-05T06:51:18] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-05T07:15:52] Event: High traffic detected from IP 203.0.113.5
+[2024-02-05T07:28:32] Event: Successful user login from IP 192.168.1.10
+[2024-02-05T07:28:55] Event: Successful user login from IP 192.168.1.10
+[2024-02-05T07:30:17] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-05T08:29:47] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-05T09:02:12] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-05T09:48:00] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-05T11:15:53] Event: Successful user login from IP 192.168.1.10
+[2024-02-05T11:28:27] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-05T11:34:35] Event: Unexpected shutdown of server XYZ
+[2024-02-05T12:05:38] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-05T12:37:28] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-05T13:24:59] Event: Unauthorized access attempt to server XYZ
+[2024-02-05T14:29:03] Event: Unexpected shutdown of server XYZ
+[2024-02-05T15:26:45] Event: Successful user login from IP 192.168.1.10
+[2024-02-05T17:09:51] Event: Successful user login from IP 192.168.1.12
+[2024-02-05T17:53:53] Event: Successful user login from IP 192.168.1.10
+[2024-02-05T19:58:00] Event: Successful user login from IP 192.168.1.10
+[2024-02-05T19:59:23] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-05T19:59:37] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-05T20:25:54] Event: Unauthorized access attempt to server XYZ
+[2024-02-05T21:41:30] Event: High traffic detected from IP 203.0.113.5
+[2024-02-05T21:46:50] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-05T21:55:13] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-05T23:49:35] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-06T00:18:14] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-06T00:22:46] Event: Successful user login from IP 192.168.1.10
+[2024-02-06T01:13:15] Event: High traffic detected from IP 203.0.113.5
+[2024-02-06T01:27:28] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-06T01:34:12] Event: High traffic detected from IP 203.0.113.5
+[2024-02-06T01:56:41] Event: Unauthorized access attempt to server XYZ
+[2024-02-06T03:38:07] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-06T03:48:03] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-06T03:53:51] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-06T06:40:02] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-06T06:44:39] Event: Successful user login from IP 192.168.1.12
+[2024-02-06T07:14:26] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-06T07:50:37] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-06T08:38:39] Event: High traffic detected from IP 203.0.113.5
+[2024-02-06T08:44:52] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-06T09:07:44] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-06T09:30:34] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-06T09:48:33] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-06T10:20:24] Event: Malware detected on workstation ABC
+[2024-02-06T11:02:45] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-06T12:41:48] Event: Unauthorized access attempt to server XYZ
+[2024-02-06T13:10:32] Event: Successful user login from IP 192.168.1.10
+[2024-02-06T13:23:27] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-06T13:59:24] Event: Successful user login from IP 192.168.1.12
+[2024-02-06T15:08:46] Event: Malware detected on workstation ABC
+[2024-02-06T15:13:11] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-06T17:28:17] Event: Successful user login from IP 192.168.1.10
+[2024-02-06T18:15:32] Event: Malware detected on workstation ABC
+[2024-02-06T19:32:51] Event: Malware detected on workstation ABC
+[2024-02-06T19:44:34] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-06T20:38:05] Event: Successful user login from IP 192.168.1.12
+[2024-02-06T20:48:39] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-06T20:50:35] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-06T21:35:10] Event: High traffic detected from IP 203.0.113.5
+[2024-02-06T21:46:32] Event: Unauthorized access attempt to server XYZ
+[2024-02-06T22:48:25] Event: Malware detected on workstation ABC
+[2024-02-06T23:21:33] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-06T23:49:22] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-07T00:25:35] Event: Successful user login from IP 192.168.1.12
+[2024-02-07T01:13:17] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-07T01:20:10] Event: Malware detected on workstation ABC
+[2024-02-07T02:06:17] Event: Unexpected shutdown of server XYZ
+[2024-02-07T03:11:21] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-07T03:18:48] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-07T03:33:45] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-07T03:50:04] Event: Successful user login from IP 192.168.1.10
+[2024-02-07T04:23:31] Event: High traffic detected from IP 203.0.113.5
+[2024-02-07T04:23:34] Event: Unexpected shutdown of server XYZ
+[2024-02-07T04:47:54] Event: High traffic detected from IP 203.0.113.5
+[2024-02-07T04:54:54] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-07T05:34:53] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-07T07:17:34] Event: High traffic detected from IP 203.0.113.5
+[2024-02-07T07:24:58] Event: High traffic detected from IP 203.0.113.5
+[2024-02-07T07:44:14] Event: High traffic detected from IP 203.0.113.5
+[2024-02-07T08:08:26] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-07T08:20:11] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-07T08:20:33] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-07T08:28:40] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-07T10:04:07] Event: Successful user login from IP 192.168.1.10
+[2024-02-07T10:13:20] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-07T10:24:34] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-07T10:26:03] Event: Successful user login from IP 192.168.1.12
+[2024-02-07T10:46:02] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-07T11:06:33] Event: High traffic detected from IP 203.0.113.5
+[2024-02-07T11:42:56] Event: Unauthorized access attempt to server XYZ
+[2024-02-07T12:23:16] Event: Unauthorized access attempt to server XYZ
+[2024-02-07T13:11:57] Event: Successful user login from IP 192.168.1.12
+[2024-02-07T14:25:44] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-07T15:24:30] Event: High traffic detected from IP 203.0.113.5
+[2024-02-07T15:37:47] Event: Malware detected on workstation ABC
+[2024-02-07T15:42:35] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-07T16:51:07] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-07T18:09:31] Event: Unauthorized access attempt to server XYZ
+[2024-02-07T18:48:19] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-07T19:03:12] Event: Malware detected on workstation ABC
+[2024-02-07T19:20:21] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-07T19:39:55] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-07T20:00:32] Event: Successful user login from IP 192.168.1.10
+[2024-02-07T20:01:49] Event: Successful user login from IP 192.168.1.10
+[2024-02-07T20:08:59] Event: High traffic detected from IP 203.0.113.5
+[2024-02-07T20:21:37] Event: Successful user login from IP 192.168.1.12
+[2024-02-07T20:25:10] Event: High traffic detected from IP 203.0.113.5
+[2024-02-07T21:56:37] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-07T22:07:07] Event: Unexpected shutdown of server XYZ
+[2024-02-07T23:05:47] Event: High traffic detected from IP 203.0.113.5
+[2024-02-07T23:09:41] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-08T00:03:15] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-08T00:09:01] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-08T00:29:26] Event: Successful user login from IP 192.168.1.12
+[2024-02-08T01:55:39] Event: Unexpected shutdown of server XYZ
+[2024-02-08T03:25:24] Event: Unexpected shutdown of server XYZ
+[2024-02-08T03:28:46] Event: Malware detected on workstation ABC
+[2024-02-08T03:47:59] Event: Successful user login from IP 192.168.1.10
+[2024-02-08T04:06:53] Event: Successful user login from IP 192.168.1.12
+[2024-02-08T04:22:34] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-08T05:44:53] Event: Successful user login from IP 192.168.1.12
+[2024-02-08T06:03:38] Event: Unexpected shutdown of server XYZ
+[2024-02-08T06:24:21] Event: Unauthorized access attempt to server XYZ
+[2024-02-08T08:17:51] Event: Malware detected on workstation ABC
+[2024-02-08T08:25:58] Event: Unauthorized access attempt to server XYZ
+[2024-02-08T09:35:10] Event: Unauthorized access attempt to server XYZ
+[2024-02-08T09:40:44] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-08T10:04:54] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-08T11:18:40] Event: Unexpected shutdown of server XYZ
+[2024-02-08T12:07:56] Event: Successful user login from IP 192.168.1.12
+[2024-02-08T13:24:00] Event: Malware detected on workstation ABC
+[2024-02-08T13:28:43] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-08T14:00:32] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-08T14:10:29] Event: Successful user login from IP 192.168.1.12
+[2024-02-08T14:51:52] Event: Successful user login from IP 192.168.1.12
+[2024-02-08T15:21:37] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-08T16:00:18] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-08T16:27:59] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-08T16:31:33] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-08T16:48:22] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-08T17:34:14] Event: High traffic detected from IP 203.0.113.5
+[2024-02-08T18:28:10] Event: Successful user login from IP 192.168.1.10
+[2024-02-08T20:14:50] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-08T21:06:12] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-08T21:12:42] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-08T21:31:47] Event: Successful user login from IP 192.168.1.12
+[2024-02-08T23:31:51] Event: Malware detected on workstation ABC
+[2024-02-09T00:19:21] Event: Successful user login from IP 192.168.1.10
+[2024-02-09T02:19:21] Event: Successful user login from IP 192.168.1.12
+[2024-02-09T02:45:19] Event: High traffic detected from IP 203.0.113.5
+[2024-02-09T02:49:09] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-09T03:03:11] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-09T03:26:27] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-09T03:26:31] Event: High traffic detected from IP 203.0.113.5
+[2024-02-09T04:42:55] Event: Unauthorized access attempt to server XYZ
+[2024-02-09T04:51:06] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-09T04:53:32] Event: Unexpected shutdown of server XYZ
+[2024-02-09T05:30:42] Event: Unauthorized access attempt to server XYZ
+[2024-02-09T06:01:11] Event: High traffic detected from IP 203.0.113.5
+[2024-02-09T06:48:20] Event: Malware detected on workstation ABC
+[2024-02-09T06:53:41] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-09T08:04:15] Event: Unexpected shutdown of server XYZ
+[2024-02-09T08:59:39] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-09T09:33:20] Event: Successful user login from IP 192.168.1.12
+[2024-02-09T09:59:27] Event: Malware detected on workstation ABC
+[2024-02-09T10:22:40] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-09T10:51:12] Event: Unauthorized access attempt to server XYZ
+[2024-02-09T10:58:24] Event: Unexpected shutdown of server XYZ
+[2024-02-09T11:47:25] Event: Successful user login from IP 192.168.1.10
+[2024-02-09T12:01:15] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-09T12:47:48] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-09T13:19:38] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-09T13:23:56] Event: Unexpected shutdown of server XYZ
+[2024-02-09T17:10:38] Event: High traffic detected from IP 203.0.113.5
+[2024-02-09T17:45:44] Event: Unauthorized access attempt to server XYZ
+[2024-02-09T18:11:00] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-09T18:25:45] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-09T18:49:17] Event: Unauthorized access attempt to server XYZ
+[2024-02-09T18:50:40] Event: Successful user login from IP 192.168.1.10
+[2024-02-09T18:56:20] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-09T19:17:19] Event: Successful user login from IP 192.168.1.10
+[2024-02-09T20:38:05] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-09T20:40:26] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-09T21:59:20] Event: Unexpected shutdown of server XYZ
+[2024-02-09T22:37:26] Event: Successful user login from IP 192.168.1.12
+[2024-02-09T23:21:27] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-09T23:28:45] Event: Successful user login from IP 192.168.1.10
+[2024-02-10T00:09:53] Event: Malware detected on workstation ABC
+[2024-02-10T00:59:00] Event: Unauthorized access attempt to server XYZ
+[2024-02-10T02:54:12] Event: High traffic detected from IP 203.0.113.5
+[2024-02-10T04:01:18] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-10T04:28:36] Event: Unexpected shutdown of server XYZ
+[2024-02-10T04:46:38] Event: Unexpected shutdown of server XYZ
+[2024-02-10T05:35:44] Event: Successful user login from IP 192.168.1.10
+[2024-02-10T06:02:59] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-10T06:20:47] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-10T07:09:53] Event: High traffic detected from IP 203.0.113.5
+[2024-02-10T08:45:51] Event: Unexpected shutdown of server XYZ
+[2024-02-10T10:00:42] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-10T10:18:20] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-10T10:19:45] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-10T10:23:01] Event: Unauthorized access attempt to server XYZ
+[2024-02-10T10:30:58] Event: Malware detected on workstation ABC
+[2024-02-10T11:01:15] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-10T11:31:25] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-10T12:47:23] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-10T17:39:16] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-10T17:48:30] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-10T18:20:19] Event: Malware detected on workstation ABC
+[2024-02-10T18:39:06] Event: Unauthorized access attempt to server XYZ
+[2024-02-10T19:48:58] Event: High traffic detected from IP 203.0.113.5
+[2024-02-10T21:23:43] Event: Successful user login from IP 192.168.1.12
+[2024-02-10T21:52:11] Event: Successful user login from IP 192.168.1.10
+[2024-02-10T22:07:11] Event: Successful user login from IP 192.168.1.10
+[2024-02-10T23:03:23] Event: Unexpected shutdown of server XYZ
+[2024-02-11T00:05:48] Event: Successful user login from IP 192.168.1.10
+[2024-02-11T00:08:55] Event: Unexpected shutdown of server XYZ
+[2024-02-11T00:15:45] Event: Successful user login from IP 192.168.1.12
+[2024-02-11T00:28:24] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-11T00:35:27] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-11T00:59:59] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-11T01:50:41] Event: High traffic detected from IP 203.0.113.5
+[2024-02-11T02:13:04] Event: Malware detected on workstation ABC
+[2024-02-11T02:37:32] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-11T03:05:26] Event: High traffic detected from IP 203.0.113.5
+[2024-02-11T04:00:14] Event: Malware detected on workstation ABC
+[2024-02-11T05:01:48] Event: Unexpected shutdown of server XYZ
+[2024-02-11T06:13:41] Event: Malware detected on workstation ABC
+[2024-02-11T06:56:28] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-11T08:04:05] Event: Successful user login from IP 192.168.1.10
+[2024-02-11T08:17:32] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-11T08:19:44] Event: Successful user login from IP 192.168.1.10
+[2024-02-11T08:33:43] Event: High traffic detected from IP 203.0.113.5
+[2024-02-11T09:27:31] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-11T10:04:53] Event: High traffic detected from IP 203.0.113.5
+[2024-02-11T10:35:12] Event: Unexpected shutdown of server XYZ
+[2024-02-11T10:55:45] Event: Successful user login from IP 192.168.1.12
+[2024-02-11T11:09:42] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-11T11:35:38] Event: High traffic detected from IP 203.0.113.5
+[2024-02-11T12:39:38] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-11T16:33:24] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-11T16:35:47] Event: Unexpected shutdown of server XYZ
+[2024-02-11T17:05:34] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-11T17:11:25] Event: Successful user login from IP 192.168.1.10
+[2024-02-11T17:23:59] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-11T17:34:01] Event: Malware detected on workstation ABC
+[2024-02-11T18:13:39] Event: Successful user login from IP 192.168.1.12
+[2024-02-11T19:38:42] Event: Unexpected shutdown of server XYZ
+[2024-02-11T20:58:23] Event: High traffic detected from IP 203.0.113.5
+[2024-02-11T21:59:08] Event: Successful user login from IP 192.168.1.12
+[2024-02-11T23:45:31] Event: Unauthorized access attempt to server XYZ
+[2024-02-12T01:06:53] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-12T01:29:42] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-12T01:37:03] Event: Unexpected shutdown of server XYZ
+[2024-02-12T03:12:17] Event: Malware detected on workstation ABC
+[2024-02-12T04:05:32] Event: Successful user login from IP 192.168.1.10
+[2024-02-12T05:23:48] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-12T05:52:36] Event: Successful user login from IP 192.168.1.10
+[2024-02-12T08:19:49] Event: Malware detected on workstation ABC
+[2024-02-12T08:20:29] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-12T09:03:38] Event: Malware detected on workstation ABC
+[2024-02-12T09:06:08] Event: Malware detected on workstation ABC
+[2024-02-12T09:20:52] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-12T09:29:19] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-12T10:02:40] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-12T10:03:24] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-12T10:16:08] Event: Successful user login from IP 192.168.1.10
+[2024-02-12T10:27:20] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-12T10:54:24] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-12T11:09:25] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-12T12:12:43] Event: High traffic detected from IP 203.0.113.5
+[2024-02-12T12:40:46] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-12T13:49:01] Event: Unexpected shutdown of server XYZ
+[2024-02-12T16:14:49] Event: Unexpected shutdown of server XYZ
+[2024-02-12T17:39:15] Event: Malware detected on workstation ABC
+[2024-02-12T17:54:15] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-12T19:20:36] Event: Successful user login from IP 192.168.1.12
+[2024-02-12T21:01:00] Event: Unauthorized access attempt to server XYZ
+[2024-02-12T21:25:23] Event: High traffic detected from IP 203.0.113.5
+[2024-02-12T21:30:11] Event: Successful user login from IP 192.168.1.12
+[2024-02-12T21:43:23] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-12T22:20:18] Event: Successful user login from IP 192.168.1.12
+[2024-02-12T22:23:18] Event: Malware detected on workstation ABC
+[2024-02-12T22:23:44] Event: Malware detected on workstation ABC
+[2024-02-12T22:35:31] Event: Malware detected on workstation ABC
+[2024-02-12T23:25:46] Event: Malware detected on workstation ABC
+[2024-02-12T23:39:24] Event: High traffic detected from IP 203.0.113.5
+[2024-02-13T03:56:09] Event: Unauthorized access attempt to server XYZ
+[2024-02-13T04:29:30] Event: Successful user login from IP 192.168.1.12
+[2024-02-13T04:55:59] Event: Malware detected on workstation ABC
+[2024-02-13T08:09:12] Event: Unexpected shutdown of server XYZ
+[2024-02-13T08:40:36] Event: High traffic detected from IP 203.0.113.5
+[2024-02-13T10:36:00] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-13T11:06:38] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-13T11:24:37] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-13T12:08:42] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-13T14:11:59] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-13T14:23:56] Event: Unexpected shutdown of server XYZ
+[2024-02-13T15:26:06] Event: Successful user login from IP 192.168.1.12
+[2024-02-13T15:36:07] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-13T15:56:15] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-13T16:06:06] Event: Malware detected on workstation ABC
+[2024-02-13T16:29:07] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-13T18:47:09] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-13T18:48:35] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-13T19:10:02] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-13T19:40:24] Event: Successful user login from IP 192.168.1.10
+[2024-02-13T19:49:53] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-13T20:12:45] Event: Malware detected on workstation ABC
+[2024-02-13T21:09:54] Event: Successful user login from IP 192.168.1.12
+[2024-02-13T22:53:45] Event: High traffic detected from IP 203.0.113.5
+[2024-02-13T23:50:17] Event: High traffic detected from IP 203.0.113.5
+[2024-02-14T00:25:40] Event: Malware detected on workstation ABC
+[2024-02-14T01:25:05] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-14T01:34:46] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-14T03:26:33] Event: Successful user login from IP 192.168.1.12
+[2024-02-14T03:49:57] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-14T05:14:45] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-14T09:29:07] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-14T09:46:54] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-14T10:27:30] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-14T11:02:02] Event: Malware detected on workstation ABC
+[2024-02-14T11:28:52] Event: Successful user login from IP 192.168.1.10
+[2024-02-14T12:03:51] Event: High traffic detected from IP 203.0.113.5
+[2024-02-14T14:31:17] Event: Successful user login from IP 192.168.1.10
+[2024-02-14T15:06:47] Event: Successful user login from IP 192.168.1.12
+[2024-02-14T15:35:04] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-14T17:14:35] Event: Successful user login from IP 192.168.1.10
+[2024-02-14T18:45:06] Event: Unexpected shutdown of server XYZ
+[2024-02-14T20:20:43] Event: Successful user login from IP 192.168.1.12
+[2024-02-14T22:05:46] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-14T22:27:56] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-14T22:46:40] Event: High traffic detected from IP 203.0.113.5
+[2024-02-15T00:01:13] Event: Malware detected on workstation ABC
+[2024-02-15T00:34:48] Event: Unauthorized access attempt to server XYZ
+[2024-02-15T00:50:35] Event: High traffic detected from IP 203.0.113.5
+[2024-02-15T00:51:35] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-15T02:43:19] Event: Successful user login from IP 192.168.1.12
+[2024-02-15T03:11:23] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-15T05:14:44] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-15T05:26:02] Event: Malware detected on workstation ABC
+[2024-02-15T05:39:05] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-15T05:39:39] Event: High traffic detected from IP 203.0.113.5
+[2024-02-15T05:53:28] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-15T06:38:44] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-15T07:28:25] Event: High traffic detected from IP 203.0.113.5
+[2024-02-15T08:18:00] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-15T10:02:30] Event: High traffic detected from IP 203.0.113.5
+[2024-02-15T11:23:42] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-15T13:11:56] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-15T15:55:50] Event: Successful user login from IP 192.168.1.10
+[2024-02-15T18:54:28] Event: Successful user login from IP 192.168.1.10
+[2024-02-15T21:26:36] Event: Unexpected shutdown of server XYZ
+[2024-02-15T22:41:51] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-15T23:08:45] Event: Unexpected shutdown of server XYZ
+[2024-02-15T23:10:32] Event: Unexpected shutdown of server XYZ
+[2024-02-15T23:16:04] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-16T00:32:33] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-16T00:55:20] Event: Successful user login from IP 192.168.1.12
+[2024-02-16T01:19:10] Event: Unexpected shutdown of server XYZ
+[2024-02-16T01:47:22] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-16T02:21:35] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-16T02:35:22] Event: Malware detected on workstation ABC
+[2024-02-16T04:48:41] Event: Unexpected shutdown of server XYZ
+[2024-02-16T05:43:33] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-16T06:01:45] Event: Malware detected on workstation ABC
+[2024-02-16T07:17:24] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-16T07:47:04] Event: High traffic detected from IP 203.0.113.5
+[2024-02-16T08:00:03] Event: High traffic detected from IP 203.0.113.5
+[2024-02-16T09:28:08] Event: Successful user login from IP 192.168.1.10
+[2024-02-16T09:30:54] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-16T09:45:58] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-16T10:02:24] Event: Unauthorized access attempt to server XYZ
+[2024-02-16T10:19:47] Event: High traffic detected from IP 203.0.113.5
+[2024-02-16T10:55:29] Event: High traffic detected from IP 203.0.113.5
+[2024-02-16T11:12:20] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-16T11:23:58] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-16T11:57:49] Event: Successful user login from IP 192.168.1.10
+[2024-02-16T12:17:30] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-16T12:47:40] Event: Successful user login from IP 192.168.1.12
+[2024-02-16T13:33:13] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-16T13:55:38] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-16T15:23:33] Event: High traffic detected from IP 203.0.113.5
+[2024-02-16T15:51:38] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-16T16:16:53] Event: Successful user login from IP 192.168.1.12
+[2024-02-16T16:46:41] Event: Successful user login from IP 192.168.1.10
+[2024-02-16T16:58:17] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-16T17:13:08] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-16T18:41:01] Event: High traffic detected from IP 203.0.113.5
+[2024-02-16T18:58:56] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-16T19:37:45] Event: Unauthorized access attempt to server XYZ
+[2024-02-16T20:36:24] Event: Malware detected on workstation ABC
+[2024-02-16T20:54:32] Event: Malware detected on workstation ABC
+[2024-02-16T21:44:22] Event: Malware detected on workstation ABC
+[2024-02-16T22:41:37] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-16T23:20:11] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-16T23:37:51] Event: Unauthorized access attempt to server XYZ
+[2024-02-16T23:50:44] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-17T00:41:31] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-17T01:20:52] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-17T01:54:01] Event: Malware detected on workstation ABC
+[2024-02-17T02:00:56] Event: High traffic detected from IP 203.0.113.5
+[2024-02-17T02:22:31] Event: Successful user login from IP 192.168.1.12
+[2024-02-17T02:37:18] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-17T02:47:01] Event: Unexpected shutdown of server XYZ
+[2024-02-17T02:50:06] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-17T03:02:17] Event: Malware detected on workstation ABC
+[2024-02-17T03:20:55] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-17T04:22:19] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-17T05:13:57] Event: Unauthorized access attempt to server XYZ
+[2024-02-17T05:24:10] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-17T06:54:16] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-17T07:27:20] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-17T07:29:25] Event: Unauthorized access attempt to server XYZ
+[2024-02-17T07:47:14] Event: High traffic detected from IP 203.0.113.5
+[2024-02-17T07:52:54] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-17T08:13:37] Event: High traffic detected from IP 203.0.113.5
+[2024-02-17T08:22:36] Event: Successful user login from IP 192.168.1.12
+[2024-02-17T09:17:50] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-17T09:51:49] Event: High traffic detected from IP 203.0.113.5
+[2024-02-17T10:01:48] Event: Unexpected shutdown of server XYZ
+[2024-02-17T11:05:45] Event: Successful user login from IP 192.168.1.10
+[2024-02-17T12:31:55] Event: Unauthorized access attempt to server XYZ
+[2024-02-17T12:51:45] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-17T13:53:08] Event: Successful user login from IP 192.168.1.12
+[2024-02-17T14:20:48] Event: Successful user login from IP 192.168.1.10
+[2024-02-17T14:58:38] Event: Unauthorized access attempt to server XYZ
+[2024-02-17T15:49:29] Event: Successful user login from IP 192.168.1.12
+[2024-02-17T16:07:13] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-17T18:16:08] Event: High traffic detected from IP 203.0.113.5
+[2024-02-17T19:48:30] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-17T22:31:02] Event: Malware detected on workstation ABC
+[2024-02-17T22:42:44] Event: Successful user login from IP 192.168.1.10
+[2024-02-17T23:27:38] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-18T00:49:23] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-18T01:19:12] Event: Unauthorized access attempt to server XYZ
+[2024-02-18T01:37:42] Event: Malware detected on workstation ABC
+[2024-02-18T02:36:25] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-18T02:49:57] Event: High traffic detected from IP 203.0.113.5
+[2024-02-18T03:07:38] Event: Malware detected on workstation ABC
+[2024-02-18T03:11:01] Event: Successful user login from IP 192.168.1.12
+[2024-02-18T03:20:12] Event: Unauthorized access attempt to server XYZ
+[2024-02-18T03:22:37] Event: Successful user login from IP 192.168.1.10
+[2024-02-18T03:41:39] Event: Unexpected shutdown of server XYZ
+[2024-02-18T03:43:20] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-18T03:55:20] Event: Unexpected shutdown of server XYZ
+[2024-02-18T04:30:25] Event: Malware detected on workstation ABC
+[2024-02-18T06:30:17] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-18T07:27:03] Event: Malware detected on workstation ABC
+[2024-02-18T07:41:57] Event: Malware detected on workstation ABC
+[2024-02-18T08:22:36] Event: Successful user login from IP 192.168.1.10
+[2024-02-18T09:13:21] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-18T09:20:58] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-18T09:48:13] Event: Successful user login from IP 192.168.1.10
+[2024-02-18T10:03:46] Event: Unauthorized access attempt to server XYZ
+[2024-02-18T10:04:55] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-18T10:15:15] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-18T10:54:51] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-18T11:43:49] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-18T12:10:30] Event: Successful user login from IP 192.168.1.10
+[2024-02-18T12:23:17] Event: Successful user login from IP 192.168.1.10
+[2024-02-18T13:38:59] Event: Malware detected on workstation ABC
+[2024-02-18T13:47:16] Event: Unauthorized access attempt to server XYZ
+[2024-02-18T14:12:21] Event: Successful user login from IP 192.168.1.12
+[2024-02-18T15:09:15] Event: Unauthorized access attempt to server XYZ
+[2024-02-18T15:16:02] Event: Unexpected shutdown of server XYZ
+[2024-02-18T16:24:15] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-18T17:56:20] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-18T18:16:13] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-18T18:38:43] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-18T19:56:09] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-18T19:57:47] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-18T20:16:15] Event: Successful user login from IP 192.168.1.12
+[2024-02-18T20:43:40] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-18T20:48:48] Event: Unexpected shutdown of server XYZ
+[2024-02-18T21:07:20] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-18T21:47:23] Event: Successful user login from IP 192.168.1.12
+[2024-02-18T22:05:17] Event: Malware detected on workstation ABC
+[2024-02-18T23:21:19] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-18T23:28:17] Event: High traffic detected from IP 203.0.113.5
+[2024-02-19T00:11:15] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-19T00:24:38] Event: Unexpected shutdown of server XYZ
+[2024-02-19T00:43:43] Event: Unauthorized access attempt to server XYZ
+[2024-02-19T00:58:37] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-19T01:24:49] Event: Successful user login from IP 192.168.1.10
+[2024-02-19T01:56:42] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-19T01:59:54] Event: Successful user login from IP 192.168.1.12
+[2024-02-19T02:06:17] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-19T02:39:00] Event: High traffic detected from IP 203.0.113.5
+[2024-02-19T03:28:48] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-19T04:17:56] Event: Unauthorized access attempt to server XYZ
+[2024-02-19T04:48:04] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-19T05:32:40] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-19T06:06:43] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-19T06:07:07] Event: High traffic detected from IP 203.0.113.5
+[2024-02-19T06:21:43] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-19T06:45:04] Event: Unauthorized access attempt to server XYZ
+[2024-02-19T06:48:28] Event: Successful user login from IP 192.168.1.10
+[2024-02-19T07:20:28] Event: Successful user login from IP 192.168.1.10
+[2024-02-19T07:48:35] Event: Successful user login from IP 192.168.1.10
+[2024-02-19T08:26:41] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-19T10:00:48] Event: Successful user login from IP 192.168.1.12
+[2024-02-19T10:09:42] Event: Unauthorized access attempt to server XYZ
+[2024-02-19T11:22:51] Event: Successful user login from IP 192.168.1.10
+[2024-02-19T11:29:57] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-19T11:45:16] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-19T12:35:18] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-19T13:05:25] Event: Successful user login from IP 192.168.1.10
+[2024-02-19T13:55:09] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-19T13:59:56] Event: High traffic detected from IP 203.0.113.5
+[2024-02-19T15:02:07] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-19T15:14:41] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-19T15:28:30] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-19T17:04:45] Event: Malware detected on workstation ABC
+[2024-02-19T17:13:03] Event: Successful user login from IP 192.168.1.12
+[2024-02-19T17:35:38] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-19T18:04:47] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-19T18:32:42] Event: Malware detected on workstation ABC
+[2024-02-19T19:20:52] Event: Successful user login from IP 192.168.1.12
+[2024-02-19T19:56:26] Event: Successful user login from IP 192.168.1.12
+[2024-02-19T20:37:19] Event: Successful user login from IP 192.168.1.10
+[2024-02-19T20:42:25] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-19T21:14:37] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-19T21:23:46] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-19T21:30:15] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-19T21:59:05] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-19T23:18:27] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-19T23:36:26] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-19T23:52:21] Event: High traffic detected from IP 203.0.113.5
+[2024-02-19T23:56:57] Event: Unauthorized access attempt to server XYZ
+[2024-02-20T00:36:09] Event: Successful user login from IP 192.168.1.12
+[2024-02-20T01:24:59] Event: Unexpected shutdown of server XYZ
+[2024-02-20T02:12:47] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-20T02:15:53] Event: Unauthorized access attempt to server XYZ
+[2024-02-20T03:56:19] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-20T04:00:32] Event: High traffic detected from IP 203.0.113.5
+[2024-02-20T04:38:17] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-20T04:45:56] Event: Successful user login from IP 192.168.1.12
+[2024-02-20T05:47:15] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-20T05:53:03] Event: High traffic detected from IP 203.0.113.5
+[2024-02-20T05:59:01] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-20T06:18:00] Event: Successful user login from IP 192.168.1.10
+[2024-02-20T06:23:22] Event: Successful user login from IP 192.168.1.10
+[2024-02-20T07:26:58] Event: Unexpected shutdown of server XYZ
+[2024-02-20T09:01:54] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-20T09:34:49] Event: Unauthorized access attempt to server XYZ
+[2024-02-20T09:38:28] Event: Successful user login from IP 192.168.1.10
+[2024-02-20T09:54:12] Event: Unauthorized access attempt to server XYZ
+[2024-02-20T09:54:32] Event: Successful user login from IP 192.168.1.10
+[2024-02-20T10:01:21] Event: Malware detected on workstation ABC
+[2024-02-20T10:22:15] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-20T10:42:06] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-20T11:15:41] Event: Unexpected shutdown of server XYZ
+[2024-02-20T11:39:34] Event: High traffic detected from IP 203.0.113.5
+[2024-02-20T13:10:52] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-20T13:55:35] Event: Unauthorized access attempt to server XYZ
+[2024-02-20T14:40:41] Event: Successful user login from IP 192.168.1.10
+[2024-02-20T15:10:38] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-20T15:55:53] Event: Successful user login from IP 192.168.1.12
+[2024-02-20T16:36:27] Event: Successful user login from IP 192.168.1.10
+[2024-02-20T16:50:32] Event: High traffic detected from IP 203.0.113.5
+[2024-02-20T17:12:35] Event: Successful user login from IP 192.168.1.12
+[2024-02-20T17:34:18] Event: Unauthorized access attempt to server XYZ
+[2024-02-20T18:08:04] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-20T18:38:54] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-20T19:10:53] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-21T00:01:55] Event: Unexpected shutdown of server XYZ
+[2024-02-21T00:32:14] Event: Successful user login from IP 192.168.1.12
+[2024-02-21T00:33:19] Event: Malware detected on workstation ABC
+[2024-02-21T00:37:07] Event: Unexpected shutdown of server XYZ
+[2024-02-21T00:50:18] Event: Successful user login from IP 192.168.1.12
+[2024-02-21T02:58:39] Event: Successful user login from IP 192.168.1.12
+[2024-02-21T03:36:09] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-21T04:14:03] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-21T04:29:31] Event: Successful user login from IP 192.168.1.12
+[2024-02-21T04:59:16] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-21T05:08:07] Event: Successful user login from IP 192.168.1.10
+[2024-02-21T05:29:20] Event: Successful user login from IP 192.168.1.10
+[2024-02-21T07:42:54] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-21T08:34:24] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-21T09:05:05] Event: Malware detected on workstation ABC
+[2024-02-21T10:00:04] Event: Malware detected on workstation ABC
+[2024-02-21T10:54:01] Event: Successful user login from IP 192.168.1.12
+[2024-02-21T11:01:20] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-21T11:21:19] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-21T11:30:35] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-21T12:08:31] Event: High traffic detected from IP 203.0.113.5
+[2024-02-21T12:09:49] Event: Unexpected shutdown of server XYZ
+[2024-02-21T12:21:28] Event: High traffic detected from IP 203.0.113.5
+[2024-02-21T12:25:39] Event: Unauthorized access attempt to server XYZ
+[2024-02-21T12:29:47] Event: Successful user login from IP 192.168.1.12
+[2024-02-21T13:17:14] Event: Unexpected shutdown of server XYZ
+[2024-02-21T14:57:14] Event: Malware detected on workstation ABC
+[2024-02-21T17:42:37] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-21T17:42:56] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-21T18:41:27] Event: High traffic detected from IP 203.0.113.5
+[2024-02-21T19:41:25] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-21T19:58:50] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-21T21:11:05] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-21T21:21:15] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-21T22:02:43] Event: High traffic detected from IP 203.0.113.5
+[2024-02-21T22:50:40] Event: Malware detected on workstation ABC
+[2024-02-21T23:05:43] Event: Successful user login from IP 192.168.1.10
+[2024-02-21T23:52:24] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-22T00:07:28] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-22T01:54:01] Event: Unexpected shutdown of server XYZ
+[2024-02-22T03:01:35] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-22T03:24:29] Event: Successful user login from IP 192.168.1.12
+[2024-02-22T03:38:58] Event: High traffic detected from IP 203.0.113.5
+[2024-02-22T03:53:28] Event: Successful user login from IP 192.168.1.12
+[2024-02-22T04:10:41] Event: Unauthorized access attempt to server XYZ
+[2024-02-22T07:48:23] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-22T08:07:28] Event: Successful user login from IP 192.168.1.12
+[2024-02-22T08:15:40] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-22T10:17:04] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-22T10:46:31] Event: Unauthorized access attempt to server XYZ
+[2024-02-22T11:17:06] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-22T11:41:41] Event: Unexpected shutdown of server XYZ
+[2024-02-22T12:12:23] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-22T13:49:31] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-22T14:28:04] Event: Successful user login from IP 192.168.1.12
+[2024-02-22T14:58:33] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-22T15:04:28] Event: Successful user login from IP 192.168.1.10
+[2024-02-22T17:32:04] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-22T17:36:28] Event: Successful user login from IP 192.168.1.12
+[2024-02-22T18:23:52] Event: Successful user login from IP 192.168.1.10
+[2024-02-22T18:40:41] Event: Successful user login from IP 192.168.1.10
+[2024-02-22T19:32:19] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-22T19:32:54] Event: Successful user login from IP 192.168.1.12
+[2024-02-22T20:42:42] Event: High traffic detected from IP 203.0.113.5
+[2024-02-22T21:09:22] Event: Unexpected shutdown of server XYZ
+[2024-02-22T21:54:38] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-22T23:19:57] Event: Successful user login from IP 192.168.1.12
+[2024-02-22T23:36:55] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-22T23:38:32] Event: Unauthorized access attempt to server XYZ
+[2024-02-23T00:39:08] Event: Unauthorized access attempt to server XYZ
+[2024-02-23T00:52:05] Event: Successful user login from IP 192.168.1.12
+[2024-02-23T00:54:08] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-23T01:33:12] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-23T03:25:41] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-23T03:41:21] Event: Successful user login from IP 192.168.1.10
+[2024-02-23T04:20:19] Event: Unexpected shutdown of server XYZ
+[2024-02-23T04:21:41] Event: Successful user login from IP 192.168.1.12
+[2024-02-23T04:44:27] Event: Malware detected on workstation ABC
+[2024-02-23T05:38:41] Event: Successful user login from IP 192.168.1.10
+[2024-02-23T05:58:33] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-23T06:47:08] Event: Unexpected shutdown of server XYZ
+[2024-02-23T07:51:22] Event: Successful user login from IP 192.168.1.12
+[2024-02-23T07:59:40] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-23T08:33:34] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-23T09:13:27] Event: High traffic detected from IP 203.0.113.5
+[2024-02-23T12:14:58] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-23T12:28:24] Event: Successful user login from IP 192.168.1.10
+[2024-02-23T12:33:41] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-23T13:57:43] Event: Successful user login from IP 192.168.1.10
+[2024-02-23T14:09:35] Event: High traffic detected from IP 203.0.113.5
+[2024-02-23T14:14:55] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-23T14:47:47] Event: Successful user login from IP 192.168.1.12
+[2024-02-23T14:57:49] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-23T15:46:11] Event: Successful user login from IP 192.168.1.12
+[2024-02-23T16:02:05] Event: Successful user login from IP 192.168.1.10
+[2024-02-23T16:44:48] Event: Successful user login from IP 192.168.1.10
+[2024-02-23T17:19:33] Event: Successful user login from IP 192.168.1.12
+[2024-02-23T17:33:05] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-23T17:59:04] Event: Unexpected shutdown of server XYZ
+[2024-02-23T19:29:12] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-23T22:53:29] Event: High traffic detected from IP 203.0.113.5
+[2024-02-23T23:18:28] Event: Malware detected on workstation ABC
+[2024-02-23T23:41:27] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-24T00:26:41] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-24T02:28:36] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-24T02:33:57] Event: Successful user login from IP 192.168.1.12
+[2024-02-24T03:13:15] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-24T03:17:52] Event: Malware detected on workstation ABC
+[2024-02-24T03:28:07] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-24T03:33:08] Event: Unauthorized access attempt to server XYZ
+[2024-02-24T03:50:21] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-24T05:39:05] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-24T06:52:04] Event: Malware detected on workstation ABC
+[2024-02-24T07:18:31] Event: High traffic detected from IP 203.0.113.5
+[2024-02-24T07:33:34] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-24T07:52:37] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-24T08:32:44] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-24T09:30:26] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-24T11:17:40] Event: Successful user login from IP 192.168.1.10
+[2024-02-24T11:33:32] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-24T11:39:58] Event: Successful user login from IP 192.168.1.12
+[2024-02-24T11:42:48] Event: Successful user login from IP 192.168.1.10
+[2024-02-24T14:10:30] Event: Malware detected on workstation ABC
+[2024-02-24T15:11:31] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-24T15:26:52] Event: Unauthorized access attempt to server XYZ
+[2024-02-24T15:57:29] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-24T16:35:09] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-24T16:46:13] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-24T16:56:42] Event: Successful user login from IP 192.168.1.12
+[2024-02-24T18:42:26] Event: Successful user login from IP 192.168.1.10
+[2024-02-24T18:49:37] Event: Successful user login from IP 192.168.1.12
+[2024-02-24T19:16:32] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-24T19:28:18] Event: Successful user login from IP 192.168.1.12
+[2024-02-24T19:58:00] Event: Malware detected on workstation ABC
+[2024-02-24T20:04:19] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-24T20:36:57] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-24T21:12:48] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-24T21:30:59] Event: High traffic detected from IP 203.0.113.5
+[2024-02-24T21:58:29] Event: Malware detected on workstation ABC
+[2024-02-24T22:33:15] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-24T23:02:55] Event: Unexpected shutdown of server XYZ
+[2024-02-24T23:05:15] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-24T23:29:35] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-25T00:19:14] Event: Successful user login from IP 192.168.1.12
+[2024-02-25T00:45:57] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-25T02:48:44] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-25T03:27:21] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-25T04:24:46] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-25T04:57:48] Event: Malware detected on workstation ABC
+[2024-02-25T05:03:30] Event: High traffic detected from IP 203.0.113.5
+[2024-02-25T05:47:02] Event: Malware detected on workstation ABC
+[2024-02-25T06:05:55] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-25T06:15:38] Event: Successful user login from IP 192.168.1.12
+[2024-02-25T06:22:16] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-25T06:44:53] Event: Successful user login from IP 192.168.1.12
+[2024-02-25T06:47:28] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-25T07:11:17] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-25T07:37:11] Event: Successful user login from IP 192.168.1.12
+[2024-02-25T07:57:14] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-25T09:12:52] Event: Successful user login from IP 192.168.1.10
+[2024-02-25T09:18:59] Event: Unauthorized access attempt to server XYZ
+[2024-02-25T09:20:25] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-25T09:28:30] Event: Unauthorized access attempt to server XYZ
+[2024-02-25T10:10:34] Event: Successful user login from IP 192.168.1.10
+[2024-02-25T10:28:37] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-25T11:37:02] Event: Unauthorized access attempt to server XYZ
+[2024-02-25T11:48:56] Event: Malware detected on workstation ABC
+[2024-02-25T11:57:59] Event: Successful user login from IP 192.168.1.12
+[2024-02-25T13:47:14] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-25T13:48:42] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-25T14:27:49] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-25T15:21:17] Event: Successful user login from IP 192.168.1.10
+[2024-02-25T16:09:10] Event: High traffic detected from IP 203.0.113.5
+[2024-02-25T16:16:44] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-25T16:23:34] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-25T16:24:56] Event: High traffic detected from IP 203.0.113.5
+[2024-02-25T16:31:27] Event: Unexpected shutdown of server XYZ
+[2024-02-25T16:50:56] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-25T17:22:00] Event: High traffic detected from IP 203.0.113.5
+[2024-02-25T17:31:54] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-25T17:35:16] Event: Malware detected on workstation ABC
+[2024-02-25T18:47:15] Event: High traffic detected from IP 203.0.113.5
+[2024-02-25T19:29:58] Event: High traffic detected from IP 203.0.113.5
+[2024-02-25T20:01:11] Event: Malware detected on workstation ABC
+[2024-02-25T20:16:41] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-25T20:31:15] Event: Successful user login from IP 192.168.1.12
+[2024-02-25T20:54:33] Event: Unexpected shutdown of server XYZ
+[2024-02-25T21:07:17] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-25T21:47:24] Event: Malware detected on workstation ABC
+[2024-02-25T23:03:17] Event: Unauthorized access attempt to server XYZ
+[2024-02-25T23:33:08] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-26T03:48:54] Event: Malware detected on workstation ABC
+[2024-02-26T04:52:34] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-26T05:38:21] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-26T05:44:04] Event: Unexpected shutdown of server XYZ
+[2024-02-26T06:04:02] Event: Unauthorized access attempt to server XYZ
+[2024-02-26T06:40:23] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-26T06:45:13] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-26T06:48:41] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-26T07:06:12] Event: Successful user login from IP 192.168.1.10
+[2024-02-26T07:50:10] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-26T07:55:30] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-26T08:20:22] Event: Unauthorized access attempt to server XYZ
+[2024-02-26T08:27:47] Event: Successful user login from IP 192.168.1.10
+[2024-02-26T08:28:07] Event: Unauthorized access attempt to server XYZ
+[2024-02-26T08:35:44] Event: Successful user login from IP 192.168.1.12
+[2024-02-26T08:55:35] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-26T09:54:09] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-26T11:25:37] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-26T12:25:42] Event: Successful user login from IP 192.168.1.10
+[2024-02-26T13:21:12] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-26T15:33:12] Event: Successful user login from IP 192.168.1.12
+[2024-02-26T15:35:31] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-26T17:09:02] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-26T17:23:01] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-26T19:30:32] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-26T20:12:07] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-26T20:15:37] Event: Unexpected shutdown of server XYZ
+[2024-02-26T20:32:00] Event: Unexpected shutdown of server XYZ
+[2024-02-26T20:35:20] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-26T20:38:20] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-26T20:49:36] Event: Successful user login from IP 192.168.1.10
+[2024-02-26T22:07:21] Event: Successful user login from IP 192.168.1.12
+[2024-02-27T01:26:47] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-27T03:22:41] Event: Successful user login from IP 192.168.1.12
+[2024-02-27T04:37:41] Event: Malware detected on workstation ABC
+[2024-02-27T04:46:36] Event: Unauthorized access attempt to server XYZ
+[2024-02-27T05:34:44] Event: High traffic detected from IP 203.0.113.5
+[2024-02-27T07:15:22] Event: Unauthorized access attempt to server XYZ
+[2024-02-27T07:33:48] Event: High traffic detected from IP 203.0.113.5
+[2024-02-27T07:38:10] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-27T09:11:04] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-27T10:37:02] Event: Successful user login from IP 192.168.1.10
+[2024-02-27T11:29:03] Event: Unauthorized access attempt to server XYZ
+[2024-02-27T12:38:51] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-27T13:04:00] Event: Unexpected shutdown of server XYZ
+[2024-02-27T13:20:04] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-27T13:21:36] Event: Successful user login from IP 192.168.1.12
+[2024-02-27T13:23:04] Event: High traffic detected from IP 203.0.113.5
+[2024-02-27T13:31:04] Event: Malware detected on workstation ABC
+[2024-02-27T14:26:43] Event: Malware detected on workstation ABC
+[2024-02-27T14:36:57] Event: Malware detected on workstation ABC
+[2024-02-27T15:10:35] Event: Unexpected shutdown of server XYZ
+[2024-02-27T16:07:55] Event: Unexpected shutdown of server XYZ
+[2024-02-27T16:52:01] Event: Successful user login from IP 192.168.1.12
+[2024-02-27T17:06:26] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-27T17:52:31] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-27T20:15:02] Event: Successful user login from IP 192.168.1.10
+[2024-02-27T20:55:19] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-27T23:04:28] Event: Successful user login from IP 192.168.1.10
+[2024-02-28T00:36:03] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-28T01:40:09] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-28T02:05:58] Event: Unauthorized access attempt to server XYZ
+[2024-02-28T05:15:19] Event: Successful user login from IP 192.168.1.10
+[2024-02-28T05:25:18] Event: Malware detected on workstation ABC
+[2024-02-28T05:40:39] Event: Malware detected on workstation ABC
+[2024-02-28T05:48:32] Event: Unexpected shutdown of server XYZ
+[2024-02-28T06:16:59] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-28T06:49:53] Event: Unexpected shutdown of server XYZ
+[2024-02-28T07:32:48] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-28T07:53:14] Event: Successful user login from IP 192.168.1.12
+[2024-02-28T08:16:11] Event: Unexpected shutdown of server XYZ
+[2024-02-28T09:04:57] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-28T09:22:38] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-28T09:23:21] Event: Unexpected shutdown of server XYZ
+[2024-02-28T09:50:27] Event: High traffic detected from IP 203.0.113.5
+[2024-02-28T10:01:37] Event: Unexpected shutdown of server XYZ
+[2024-02-28T10:15:51] Event: Successful user login from IP 192.168.1.10
+[2024-02-28T10:25:05] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-28T10:31:46] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-28T10:38:30] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-28T10:59:46] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-28T11:34:51] Event: Unexpected shutdown of server XYZ
+[2024-02-28T12:24:28] Event: Successful user login from IP 192.168.1.12
+[2024-02-28T13:09:49] Event: Unauthorized access attempt to server XYZ
+[2024-02-28T13:15:49] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-28T13:35:41] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-28T15:44:15] Event: Successful user login from IP 192.168.1.12
+[2024-02-28T16:38:16] Event: Malware detected on workstation ABC
+[2024-02-28T16:43:20] Event: Unauthorized access attempt to server XYZ
+[2024-02-28T16:50:38] Event: Successful user login from IP 192.168.1.12
+[2024-02-28T17:02:34] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-28T17:48:14] Event: Successful user login from IP 192.168.1.10
+[2024-02-28T17:51:33] Event: Unexpected shutdown of server XYZ
+[2024-02-28T20:23:31] Event: Failed user login attempt from IP 192.168.1.18
+[2024-02-28T21:25:11] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-28T22:54:18] Event: Malware detected on workstation ABC
+[2024-02-28T23:45:23] Event: Data exfiltration attempt detected from IP 198.51.100.25
