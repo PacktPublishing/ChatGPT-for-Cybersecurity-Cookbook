@@ -1,0 +1,19 @@
+model: gpt-3.5-turbo  # Specify the language model to use
+max_tokens: 1000      # Set the maximum number of tokens for responses
+context_window: 3000  # Define the context window size
+auto_run: true        # Enable automatic execution of commands without confirmation
+
+# Custom system settings for cybersecurity tasks
+system_message: |
+  Enable advanced security checks.
+  Increase verbosity for system logs.
+  Prioritize threat hunting commands.
+
+# Example for specific task configurations
+tasks:
+  threat_hunting:
+    alert_level: high
+    response_time: fast
+  system_analysis:
+    detail_level: full
+    report_format: detailed
