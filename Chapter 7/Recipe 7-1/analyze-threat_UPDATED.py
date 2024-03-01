@@ -1,8 +1,6 @@
 import openai
-from openai import OpenAI # Import the OpenAI module for the new OpenAI API
+from openai import OpenAI
 import os
-
-client = OpenAI() # Create a new OpenAI client
 
 # Initialize the OpenAI API client
 openai.api_key = os.getenv("OPENAI_API_KEY")
@@ -18,8 +16,8 @@ def call_gpt(prompt):
             "content": prompt
         }
     ]
-    
-    response = client.chat.completions.create( # Updated to the new OpenAI API
+    client = OpenAI()
+    response = client.chat.completions.create(
         model="gpt-3.5-turbo",
         messages=messages,
         max_tokens=2048,
@@ -27,7 +25,7 @@ def call_gpt(prompt):
         stop=None,
         temperature=0.7
     )
-    return response.choices[0].message.content.strip() # Updated to the new OpenAI API
+    return response.choices[0].message.content.strip()
 
 def analyze_threat_data(file_path):
     # Read the raw threat data from the provided file

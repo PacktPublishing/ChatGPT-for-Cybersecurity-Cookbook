@@ -3,8 +3,6 @@ import os
 import openai
 from openai import OpenAI # Updated for the new OpenAI API
 
-client = OpenAI() # Updated for the new OpenAI API
-
 # Initialize the OpenAI API client
 #openai.api_key = 'YOUR_OPENAI_API_KEY'  # Replace with your actual API key or set the OPENAI_API_KEY environment variable
 openai.api_key = os.getenv("OPENAI_API_KEY")  
@@ -21,6 +19,7 @@ def chat_with_gpt(prompt):
             "content": prompt
         }
     ]
+    client = OpenAI() # Updated for the new OpenAI API
     response = client.chat.completions.create( # Use the new OpenAI API client to interact with ChatGPT
         model="gpt-3.5-turbo",
         messages=messages,

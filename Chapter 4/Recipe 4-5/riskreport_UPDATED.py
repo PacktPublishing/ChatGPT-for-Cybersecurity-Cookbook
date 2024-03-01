@@ -7,8 +7,6 @@ import time
 from datetime import datetime
 from tqdm import tqdm
 
-client = OpenAI() # Updated OpenAI API client instantiation
-
 # Set up the OpenAI API
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
@@ -46,6 +44,7 @@ def generate_section_content(section: str, system_data: str) -> str:
     ]
 
     # Call the OpenAI API
+    client = OpenAI() # Updated OpenAI API client instantiation
     response = client.chat.completions.create( # Updated API call method for the new OpenAI API
         model="gpt-3.5-turbo",
         messages=messages,

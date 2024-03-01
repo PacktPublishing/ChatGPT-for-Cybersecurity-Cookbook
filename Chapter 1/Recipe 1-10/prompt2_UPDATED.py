@@ -1,13 +1,13 @@
 import openai
 from openai import OpenAI # New import required for the updated API call
 
-client = OpenAI() # New client initialization required for the updated API call
-
 def open_file(filepath):
     with open(filepath, 'r', encoding='UTF-8') as infile:
         return infile.read()
     
 openai.api_key = open_file('openai-key.txt')
+
+client = OpenAI() # New client initialization required for the updated API call
 
 def get_chat_gpt_response(prompt):
     response = client.chat.completions.create(

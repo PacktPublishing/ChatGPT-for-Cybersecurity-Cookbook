@@ -6,8 +6,6 @@ import socket
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
-client = OpenAI() # Initialize the OpenAI API client
-
 # Initialize the OpenAI API client
 #openai.api_key = 'YOUR_OPENAI_API_KEY'  # Replace with your actual API key if you choose not to use a system environment variable
 openai.api_key = os.getenv("OPENAI_API_KEY")
@@ -24,6 +22,7 @@ def call_gpt(prompt):
             "content": prompt
         }
     ]
+    client = OpenAI() # Initialize the OpenAI API client
     response = client.chat.completions.create( # Use the new OpenAI API client to interact with ChatGPT
         model="gpt-3.5-turbo",
         messages=messages,

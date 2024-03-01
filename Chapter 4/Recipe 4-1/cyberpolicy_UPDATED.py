@@ -1,11 +1,9 @@
 import os
-from openai import OpenAI # New import required for the updated API call
 import openai
+from openai import OpenAI # New import required for the updated API call
 import docx
 from markdown import markdown
 from tqdm import tqdm
-
-client = OpenAI() # New client initialization required for the updated API call
 
 # get the OpenAI API key from environment variable
 openai.api_key = os.getenv('OPENAI_API_KEY')
@@ -24,8 +22,9 @@ messages=[
 
 print("Generating policy outline...")
 try:
+    client = OpenAI() # New client initialization required for the updated API call
     response = client.chat.completions.create( # Updated API call
-        model="gpt-4-0125-preview",
+        model="gpt-3.5-turbo",
         messages=messages,
         temperature=0.5,
     )

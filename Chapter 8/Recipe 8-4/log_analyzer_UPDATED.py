@@ -11,9 +11,7 @@ client = OpenAI()  # Updated for the new OpenAI API
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 def parse_raw_log_to_json(raw_log_path):
-    """
-    Parses a raw log file and converts it into a JSON format.
-    """
+    #Parses a raw log file and converts it into a JSON format.
     # Regular expressions to match timestamps and event descriptions in the raw log
     timestamp_regex = r'\[\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\]'
     event_regex = r'Event: (.+)'
@@ -33,33 +31,34 @@ def parse_raw_log_to_json(raw_log_path):
     return json_data
 
 def get_embeddings(texts):
-    """
-    Fetches embeddings for a list of texts using the OpenAI API.
-    """
-    response = client.Embedding.create(
-        model="text-embedding-ada-002",
-        input=texts
-    )
-    return np.array([item['embedding'] for item in response['data']])
+    embeddings = []
+    for text in texts:
+        response = client.embeddings.create(
+            input=text,
+            model="text-embedding-ada-002"  # Adjust the model as needed
+        )
+        try:
+            # Attempt to access the embedding as if the response is a dictionary
+            embedding = response['data'][0]['embedding']
+        except TypeError:
+            # If the above fails, access the embedding assuming 'response' is an object with attributes
+            embedding = response.data[0].embedding
+
+        embeddings.append(embedding)
+
+    return np.array(embeddings)
 
 def create_faiss_index(embeddings):
-    """
-    Creates a FAISS index for a given set of embeddings.
-    """
+    # Creates a FAISS index for a given set of embeddings.
     d = embeddings.shape[1]  # Dimensionality of the embeddings
     index = faiss.IndexFlatL2(d)
     index.add(embeddings.astype(np.float32))  # FAISS expects float32
     return index
 
 def analyze_logs_with_embeddings(log_data):
-    """
-    Analyze log data using OpenAI embeddings and FAISS to categorize events.
-    """
-    # Define your templates
+    # Define your templates and compute their embeddings
     suspicious_templates = ["Unauthorized access attempt detected", "Multiple failed login attempts"]
     normal_templates = ["User logged in successfully", "System health check completed"]
-
-    # Compute embeddings for templates
     suspicious_embeddings = get_embeddings(suspicious_templates)
     normal_embeddings = get_embeddings(normal_templates)
 
@@ -73,9 +72,14 @@ def analyze_logs_with_embeddings(log_data):
     categorized_events = []
 
     for entry in log_data:
+        # Fetch the embedding for the current log entry
         log_embedding = get_embeddings([entry["Event"]]).astype(np.float32)
+
+        # Perform the nearest neighbor search with FAISS
         k = 1  # Number of nearest neighbors to find
         _, indices = index.search(log_embedding, k)
+
+        # Determine the category based on the nearest template
         category = labels[indices[0][0]]
         categorized_events.append((entry["Timestamp"], entry["Event"], category))
 

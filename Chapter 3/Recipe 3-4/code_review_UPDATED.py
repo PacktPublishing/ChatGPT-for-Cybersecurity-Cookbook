@@ -6,8 +6,6 @@ from ast import NodeVisitor
 import threading
 import time
 
-client = OpenAI() # New client initialization required for the updated API call
-
 # Set up the OpenAI API
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
@@ -23,6 +21,9 @@ def review_code(source_code: str) -> str:
         {"role": "system", "content": "You are a seasoned security engineer with extensive experience in reviewing code for potential security vulnerabilities."},
         {"role": "user", "content": f"Please review the following Python code snippet. Identify any potential security flaws and then provide testing steps:\n\n{source_code}"}
     ]
+
+    client = OpenAI() # New client initialization required for the updated API call
+    
     response = client.chat.completions.create(
         model="gpt-3.5-turbo",
         messages=messages,

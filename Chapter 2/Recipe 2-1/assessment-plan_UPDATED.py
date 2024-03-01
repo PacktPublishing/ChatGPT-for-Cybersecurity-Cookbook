@@ -7,8 +7,6 @@ import threading
 import time
 from datetime import datetime
 
-client = OpenAI() # New client initialization required for the updated API call
-
 # Set up the OpenAI API
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
@@ -76,6 +74,8 @@ def generate_report(network_size,
         ##Assessment Steps\n\
         Detailed, multi-layered outline of the assessment steps'}
     ]
+
+    client = OpenAI() # New client initialization required for the updated API call
 
     # Call the OpenAI API
     response = client.chat.completions.create(

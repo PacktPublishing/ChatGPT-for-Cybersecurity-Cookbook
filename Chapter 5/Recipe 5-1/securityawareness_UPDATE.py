@@ -6,8 +6,6 @@ import time
 from datetime import datetime
 from tqdm import tqdm
 
-client = OpenAI() # Create an instance of the OpenAI class
-
 # Set up the OpenAI API
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
@@ -51,6 +49,7 @@ messages=[
 
 print(f"\nGenerating training outline...")
 try:
+    client = OpenAI() # Create an instance of the OpenAI class
     response = client.chat.completions.create( # Use the new API to generate the training outline
         model="gpt-3.5-turbo",
         messages=messages,

@@ -6,8 +6,6 @@ from tqdm import tqdm
 import threading
 import time
 
-client = OpenAI() # New client initialization required for the updated API call
-
 # Set up the OpenAI API
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
@@ -28,6 +26,8 @@ def generate_report(threat_name: str) -> str:
         Indicators of Compromise (Heading 2)\n\
         Table containing all of the known indicators of compromise. Include the following collumns: Type, Value, Description\n\n\  '}
     ]
+
+    client = OpenAI() # New client initialization required for the updated API call
 
     # Call the OpenAI API
     response = client.chat.completions.create(

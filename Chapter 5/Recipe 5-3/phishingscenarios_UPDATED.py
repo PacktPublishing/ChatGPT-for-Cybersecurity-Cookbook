@@ -5,8 +5,6 @@ import threading
 import time
 from datetime import datetime
 
-client = OpenAI() # Create an instance of the OpenAI class
-
 # Set up the OpenAI API
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
@@ -21,6 +19,7 @@ def generate_email_simulations() -> str:
     ]
 
     # Call the OpenAI API
+    client = OpenAI() # Create an instance of the OpenAI class
     response = client.chat.completions.create( # Use the new API to generate the email simulations
         model="gpt-3.5-turbo",
         messages=messages,

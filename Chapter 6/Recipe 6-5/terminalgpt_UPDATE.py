@@ -3,8 +3,6 @@ from openai import OpenAI # Import the OpenAI module for the new OpenAI API
 import os
 import subprocess
 
-client = OpenAI() # Create a new OpenAI client
-
 def open_file(filepath): #Open and read a file
     with open(filepath, 'r', encoding='UTF-8') as infile:
         return infile.read()
@@ -22,6 +20,7 @@ openai.api_key = os.getenv("OPENAI_API_KEY") #Use this if you prefer to use the 
         
 def gpt_3(prompt): #Sets up and runs the request to the OpenAI API
     try:
+        client = OpenAI() # Create a new OpenAI client
         response = client.chat.completions.create(
             model="gpt-3.5-turbo", 
             prompt=prompt,

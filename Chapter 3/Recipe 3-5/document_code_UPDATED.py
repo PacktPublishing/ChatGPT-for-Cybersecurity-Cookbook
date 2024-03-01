@@ -3,8 +3,6 @@ from openai import OpenAI # New import required for the updated API call
 import os
 from docx import Document
 
-client = OpenAI() # New client initialization required for the updated API call
-
 # Set up the OpenAI API
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
@@ -28,6 +26,9 @@ def generate_section_content(section_title: str, source_code: str) -> str:
         {"role": "system", "content": f"You are an experienced software engineer with extensive knowledge in writing {section_title} sections for design documents."},
         {"role": "user", "content": f"Please generate a {section_title} section for the following Python code:\n\n{source_code}"}
     ]
+
+    client = OpenAI() # New client initialization required for the updated API call
+    
     response = client.chat.completions.create( # Updated API call
         model="gpt-3.5-turbo",
         messages=messages,

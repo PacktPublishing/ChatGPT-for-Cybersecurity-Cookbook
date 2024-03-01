@@ -1,5 +1,5 @@
 import openai
-from openai import OpenAI # Import the OpenAI class for the new API
+from openai import OpenAI
 import os
 from mitreattack.stix20 import MitreAttackData
 
@@ -29,13 +29,16 @@ def extract_keywords_from_description(description):
 
     # Make the API call
     try:
-        client = OpenAI() # Use the OpenAI class for the new
-        response = client.chat.completions.create( # Use the create method for the new API
-            model="gpt-4-0125-preview",
+        client = OpenAI() 
+        response = client.chat.completions.create(
+            model="gpt-3.5-turbo",
             messages=messages,
-            temperature=0.5
+            max_tokens=2048,
+            n=1,
+            stop=None,
+            temperature=0.7
         )
-        response_content = response.choices[0].message.content.strip() # Use the choices attribute for the new API
+        response_content = response.choices[0].message.content.strip()
         
         # Split the response content into individual keywords
         # This step can be refined based on the actual model responses
@@ -82,13 +85,16 @@ def generate_ttp_chain(match):
 
     # Make the API call
     try:
-        client = OpenAI() # Use the OpenAI class for the new
-        response = client.chat.completions.create( # Use the create method for the new API
-            model="gpt-4-0125-preview",
+        client = OpenAI()
+        response = client.chat.completions.create(
+            model="gpt-3.5-turbo",
             messages=messages,
-            temperature=0.5
+            max_tokens=2048,
+            n=1,
+            stop=None,
+            temperature=0.7
         )
-        response_content = response.choices[0].message.content.strip() # Use the choices attribute for the new API
+        response_content = response.choices[0].message.content.strip()
         return response_content
 
     except Exception as e:

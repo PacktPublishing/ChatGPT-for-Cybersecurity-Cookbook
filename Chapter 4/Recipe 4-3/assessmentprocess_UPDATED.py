@@ -1,13 +1,11 @@
-from openai import OpenAI # Updated import statement
 import openai
+from openai import OpenAI # Updated import statement
 import os
 from docx import Document
 import threading
 import time
 from datetime import datetime
 from tqdm import tqdm
-
-client = OpenAI()   # New client initialization required for the updated API call
 
 # Set up the OpenAI API
 openai.api_key = os.getenv("OPENAI_API_KEY")
@@ -44,6 +42,7 @@ def generate_section_content(section: str) -> str:
     ]
 
     # Call the OpenAI API
+    client = OpenAI()   # New client initialization required for the updated API call
     response = client.chat.completions.create( # Updated API call
         model="gpt-3.5-turbo",
         messages=messages,

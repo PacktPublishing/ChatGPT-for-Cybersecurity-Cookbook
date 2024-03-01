@@ -6,8 +6,6 @@ import time
 from datetime import datetime
 from tqdm import tqdm
 
-client = OpenAI() # Create an instance of the OpenAI class
-
 # Set up the OpenAI API
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
@@ -22,6 +20,7 @@ def generate_question(categories: str) -> str:
     ]
 
     # Call the OpenAI API
+    client = OpenAI() # Create an instance of the OpenAI class
     response = client.chat.completions.create( # Use the new API to generate the assessment questions
         model="gpt-3.5-turbo",
         messages=messages,
