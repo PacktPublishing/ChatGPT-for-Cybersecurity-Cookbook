@@ -4,7 +4,7 @@ import time
 import os
 
 # Set the OpenAI API key
-api_key = os.environ.get('OPENAI_API_KEY')
+openai.api_key = os.environ.get('OPENAI_API_KEY')
 
 # Initialize the OpenAI client
 client = OpenAI()
