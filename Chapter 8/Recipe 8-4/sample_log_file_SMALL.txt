@@ -1,0 +1,10 @@
+[2024-02-04T10:25:47] Event: Unexpected shutdown of server XYZ
+[2024-02-04T15:05:03] Event: Successful user login from IP 192.168.1.10
+[2024-02-09T17:38:36] Event: Unauthorized access attempt to server XYZ
+[2024-02-10T10:14:05] Event: Unexpected shutdown of server XYZ
+[2024-02-10T16:33:00] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-12T16:43:13] Event: Successful user login from IP 192.168.1.10
+[2024-02-12T22:34:29] Event: Unauthorized modification of critical file /etc/passwd
+[2024-02-16T11:16:25] Event: Data exfiltration attempt detected from IP 198.51.100.25
+[2024-02-17T15:46:12] Event: Failed user login attempt from IP 192.168.1.15
+[2024-02-26T05:21:10] Event: Unexpected shutdown of server XYZ
