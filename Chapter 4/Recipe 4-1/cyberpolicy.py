@@ -1,5 +1,6 @@
 import os
 import openai
+from openai import OpenAI # New import required for the updated API call
 import docx
 from markdown import markdown
 from tqdm import tqdm
@@ -15,26 +16,24 @@ messages=[
     },
     {
         "role": "user",
-        "content": "Write a detailed cybersecurity policy outline for my company, XYZ Corp., which is a credit union. Provide the outline only, with no context or narrative. Use markdown language to denote the proper headings, lists, formatting, etc."
+        "content": "Write a detailed cybersecurity policy outline for my company, XYZ Corp., which is a water and wastewater facility. Provide the outline only, with no context or narrative. Use markdown language to denote the proper headings, lists, formatting, etc."
     }
 ]
 
 print("Generating policy outline...")
 try:
-    response = openai.ChatCompletion.create(
+    client = OpenAI() # New client initialization required for the updated API call
+    response = client.chat.completions.create( # Updated API call
         model="gpt-3.5-turbo",
         messages=messages,
-        max_tokens=2048,
-        n=1,
-        stop=None,
-        temperature=0.7,
+        temperature=0.5,
     )
 except Exception as e:
     print("An error occurred while connecting to the OpenAI API:", e)
     exit(1)
 
 # get outline
-outline = response['choices'][0]['message']['content'].strip()
+outline = response.choices[0].message.content.strip() # Updated API call
 
 print(outline + "\n")
 
@@ -62,20 +61,17 @@ for i, section in tqdm(enumerate(sections, start=1), total=len(sections), leave=
     ]
     
     try:
-        response = openai.ChatCompletion.create(
-            model="gpt-3.5-turbo",
+        response = client.chat.completions.create( # Updated API call
+            model="gpt-4-1106-preview",
             messages=messages,
-            max_tokens=2048,
-            n=1,
-            stop=None,
-            temperature=0.7,
+            temperature=0.5,
         )
     except Exception as e:
         print("An error occurred while connecting to the OpenAI API:", e)
         exit(1)
 
     # get detailed info
-    detailed_info = response['choices'][0]['message']['content'].strip()
+    detailed_info = response.choices[0].message.content.strip() # Updated API call
 
     # convert markdown to Word formatting
     doc.add_paragraph(detailed_info)

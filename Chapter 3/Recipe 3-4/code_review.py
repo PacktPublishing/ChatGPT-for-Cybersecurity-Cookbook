@@ -1,4 +1,5 @@
 import openai
+from openai import OpenAI # New import required for the updated API call
 import os
 import ast
 from ast import NodeVisitor
@@ -20,7 +21,10 @@ def review_code(source_code: str) -> str:
         {"role": "system", "content": "You are a seasoned security engineer with extensive experience in reviewing code for potential security vulnerabilities."},
         {"role": "user", "content": f"Please review the following Python code snippet. Identify any potential security flaws and then provide testing steps:\n\n{source_code}"}
     ]
-    response = openai.ChatCompletion.create(
+
+    client = OpenAI() # New client initialization required for the updated API call
+    
+    response = client.chat.completions.create(
         model="gpt-3.5-turbo",
         messages=messages,
         max_tokens=2048,
@@ -28,7 +32,7 @@ def review_code(source_code: str) -> str:
         stop=None,
         temperature=0.7,
     )
-    return response['choices'][0]['message']['content'].strip()
+    return response.choices[0].message.content.strip() # Updated API call
 
 def generate_test_script(testing_steps: str, output_file: str):
     with open(output_file, 'w') as file:
@@ -64,7 +68,7 @@ except Exception as e:
     exit()
 
 # Save the testing steps as a Python test script
-test_script_output_file = "test_script.py"
+test_script_output_file = "test_script.txt"
 
 # Handle exceptions during the test script generation
 try:
