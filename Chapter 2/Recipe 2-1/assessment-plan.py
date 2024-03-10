@@ -1,4 +1,5 @@
 import openai
+from openai import OpenAI # New import required for the updated API call
 import os
 from docx import Document
 from tqdm import tqdm
@@ -74,8 +75,10 @@ def generate_report(network_size,
         Detailed, multi-layered outline of the assessment steps'}
     ]
 
+    client = OpenAI() # New client initialization required for the updated API call
+
     # Call the OpenAI API
-    response = openai.ChatCompletion.create(
+    response = client.chat.completions.create(
         model="gpt-3.5-turbo",
         messages=messages,
         max_tokens=2048,
@@ -85,7 +88,7 @@ def generate_report(network_size,
     )
 
     # Return the generated text
-    return response['choices'][0]['message']['content'].strip()
+    return response.choices[0].message.content.strip()
 
 # Function to convert markdown text to a Word document
 def markdown_to_docx(markdown_text: str, output_file: str):

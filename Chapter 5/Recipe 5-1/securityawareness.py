@@ -1,4 +1,5 @@
 import openai
+from openai import OpenAI # Import the OpenAI class for the new API
 import os
 import threading
 import time
@@ -48,7 +49,8 @@ messages=[
 
 print(f"\nGenerating training outline...")
 try:
-    response = openai.ChatCompletion.create(
+    client = OpenAI() # Create an instance of the OpenAI class
+    response = client.chat.completions.create( # Use the new API to generate the training outline
         model="gpt-3.5-turbo",
         messages=messages,
         max_tokens=2048,
@@ -61,7 +63,7 @@ except Exception as e:
     exit(1)
 
 # Get outline
-outline = response['choices'][0]['message']['content'].strip()
+outline = response.choices[0].message.content.strip() # Updated response object attribute for the new OpenAI API
 
 print(outline + "\n")
 
@@ -91,7 +93,7 @@ try:
             api_call_completed.clear()
 
             try:
-                response = openai.ChatCompletion.create(
+                response = client.chat.completions.create( # Use the new API to generate the slide content
                     model="gpt-3.5-turbo",
                     messages=messages,
                     max_tokens=2048,
@@ -107,7 +109,7 @@ try:
             api_call_completed.set()
 
             # Get detailed info
-            slide_content = response['choices'][0]['message']['content'].strip()
+            slide_content = response.choices[0].message.content.strip() # Updated response object attribute for the new OpenAI API
 
             # Write the slide content to the output text file
             if not content_to_text_file(slide_content, file):
