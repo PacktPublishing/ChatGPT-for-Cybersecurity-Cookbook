@@ -1,0 +1,33 @@
+Request: what is my ip address?
+Command: tar -czvf archive.tar.gz directory/
+
+Request: what is myu ip address?
+Command: ls -l
+
+Request: what is my IP address?
+Command: ls -l
+
+Request: what interfaces do I have?
+Command: ls -l
+
+Request: what is my IP address?
+Command: ip addr show
+
+Request: what is my ip address?
+Command: curl ifconfig.me
+
+Request: what interfaces do I have?
+Command: ifconfig -a
+
+Request: what is my IP address?
+Command: `ipconfig getifaddr en0`
+
+Request: what is my IP address?
+Command: `ipconfig getifaddr en0`
+
+Request: what interfaces do I have?
+Command: ifconfig -a
+
+Request: what is my gateway?
+Command: ip route | grep default | awk '{print $3}'
+

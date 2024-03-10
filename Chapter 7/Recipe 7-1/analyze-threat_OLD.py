@@ -1,5 +1,4 @@
 import openai
-from openai import OpenAI
 import os
 
 # Initialize the OpenAI API client
@@ -16,8 +15,8 @@ def call_gpt(prompt):
             "content": prompt
         }
     ]
-    client = OpenAI()
-    response = client.chat.completions.create(
+    
+    response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
         messages=messages,
         max_tokens=2048,
@@ -25,7 +24,7 @@ def call_gpt(prompt):
         stop=None,
         temperature=0.7
     )
-    return response.choices[0].message.content.strip()
+    return response.choices[0].message['content'].strip()
 
 def analyze_threat_data(file_path):
     # Read the raw threat data from the provided file

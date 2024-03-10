@@ -1,9 +1,7 @@
 import openai
-from openai import OpenAI # Updated for the new OpenAI API
-import os
 
 # Set your OpenAI API key here
-openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = 'your-api-key'
 
 def generate_incident_response_playbook(threat_type, environment_details):
     """
@@ -17,8 +15,7 @@ def generate_incident_response_playbook(threat_type, environment_details):
 
     # Make the API call
     try:
-        client = OpenAI() # Updated for the new OpenAI API
-        response = client.chat.completions.create( # Use the new OpenAI API client to interact with ChatGPT
+        response = openai.ChatCompletion.create(
             model="gpt-3.5-turbo",
             messages=messages,
             max_tokens=2048,
@@ -26,7 +23,7 @@ def generate_incident_response_playbook(threat_type, environment_details):
             stop=None,
             temperature=0.7
         )
-        response_content = response.choices[0].message.content.strip() # Updated for the new OpenAI API
+        response_content = response.choices[0].message['content'].strip()
         return response_content
     except Exception as e:
         print(f"An error occurred: {e}")

@@ -27,7 +27,7 @@ def prompt_osint_analysis(job_desc):
     )
 
     # Return the generated text
-    return response['choices'][0].message.content.strip()
+    return response.choices[0].message.content.strip()
 
 # Check if the data directory exists
 if not os.path.isdir('data'):
@@ -75,7 +75,7 @@ def generate_final_report(output_data):
     )
 
     # Return the generated text
-    return response['choices'][0].message.content.strip()
+    return response.choices[0].message.content.strip()
 
 # Generate the report using the OpenAI API
 report = generate_final_report(output_data)

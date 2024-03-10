@@ -1,0 +1,5 @@
+Provide me with the MacOS zsh command necessary to complete the following request:
+
+{INPUT}
+
+(Assume I have all necessary apps, tools, and commands necessary to complete the request. Provide me with the command only and do not generate anything further. Do not provide any explanation. Provide the simplest form of the command possible unless I ask for special options, considerations, output, etc. If the request does require a compound command, provide all necessary operators, options, pipes, etc. as a single one-line command. Do not provide me more than one variation or more than one line.)

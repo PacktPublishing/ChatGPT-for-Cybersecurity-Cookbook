@@ -1,6 +1,5 @@
 import asyncio
 import openai
-from openai import OpenAI # Import the OpenAI class for the new OpenAI API
 import os
 import socket
 from watchdog.observers import Observer
@@ -22,8 +21,7 @@ def call_gpt(prompt):
             "content": prompt
         }
     ]
-    client = OpenAI() # Initialize the OpenAI API client
-    response = client.chat.completions.create( # Use the new OpenAI API client to interact with ChatGPT
+    response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
         messages=messages,
         max_tokens=2048,
@@ -31,7 +29,7 @@ def call_gpt(prompt):
         stop=None,
         temperature=0.7
     )
-    return response.choices[0].message.content.strip() # Updated for the new OpenAI API
+    return response.choices[0].message['content'].strip()
 
 # Asynchronous function to handle incoming syslog messages
 async def handle_syslog():

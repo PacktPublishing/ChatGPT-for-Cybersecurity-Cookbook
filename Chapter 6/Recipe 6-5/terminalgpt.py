@@ -1,4 +1,5 @@
 import openai
+from openai import OpenAI
 import os
 import subprocess
 
@@ -19,18 +20,16 @@ openai.api_key = os.getenv("OPENAI_API_KEY") #Use this if you prefer to use the 
         
 def gpt_3(prompt): #Sets up and runs the request to the OpenAI API
     try:
-        response = openai.Completion.create(
-            model="text-davinci-003", #So far, using davinci-003 works best. Haven't had much luck yet with Ada or Curie
-            prompt=prompt,
+        client = OpenAI() # Create a new OpenAI client
+        response = client.chat.completions.create(
+            model="gpt-3.5-turbo", 
+            messages=[{"role": "user", "content": prompt}],
             temperature=0.1,
-            max_tokens=600,
-            top_p=1,
-            frequency_penalty=0,
-            presence_penalty=0
+            max_tokens=600
         )
-        text = response['choices'][0]['text'].strip() #Trims the API response to be more readable for what we want
+        text = response.choices[0].message.content.strip()
         return text
-    except openai.error.APIError as e: #Returns and error and retries if there is an issue communicating with the API
+    except openai.APIConnectionError as e: #Returns and error and retries if there is an issue communicating with the API
         print(f"\nError communicating with the API.")
         print(f"\nError: {e}") #More detailed error output
         print("\nRetrying...")

@@ -1,6 +1,9 @@
 from scapy.all import rdpcap, IP, TCP
 import os
 import openai
+from openai import OpenAI # Updated for the new OpenAI API
+
+client = OpenAI()
 
 # Initialize the OpenAI API client
 #openai.api_key = 'YOUR_OPENAI_API_KEY'  # Replace with your actual API key or set the OPENAI_API_KEY environment variable
@@ -18,7 +21,8 @@ def chat_with_gpt(prompt):
             "content": prompt
         }
     ]
-    response = openai.ChatCompletion.create(
+    client = OpenAI() # Updated for the new OpenAI API
+    response = client.chat.completions.create( # Use the new OpenAI API client to interact with ChatGPT
         model="gpt-3.5-turbo",
         messages=messages,
         max_tokens=2048,
@@ -26,7 +30,7 @@ def chat_with_gpt(prompt):
         stop=None,
         temperature=0.7
     )
-    return response.choices[0].message['content'].strip()
+    return response.choices[0].message.content.strip() # Updated for the new OpenAI API
 
 # Read PCAP file
 packets = rdpcap('example.pcap')
