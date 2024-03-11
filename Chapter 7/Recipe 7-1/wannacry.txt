@@ -1,0 +1,415 @@
+Source: Wikipedia
+
+WannaCry ransomware
+attack
+Screenshot of the ransom note left on
+an infected system
+Date 12 May 2017 – 15 May
+2017
+(initial outbreak)
+[1]
+Duration 4 days
+Location Worldwide
+Also known
+as
+Transformations:
+Wanna → Wana
+Cryptor → Crypt0r
+Cryptor → Decryptor
+Cryptor → Crypt → Cry
+Addition of "2.0"
+Short names:
+Wanna → WN → W
+Cry → CRY
+Type Cyberattack
+Theme Ransomware
+encrypting files with
+$300–600 USD
+demand (via bitcoin)
+Cause WannaCry worm
+Outcome 300,000+ computers
+infected
+[2][3][4]
+Arrests None
+Suspects Lazarus Group
+WannaCry ransomware attack
+The WannaCry ransomware attack was a worldwide
+cyberattack in May 2017 by the WannaCry ransomware
+cryptoworm, which targeted computers running the Microsoft
+Windows operating system by encrypting data and demanding
+ransom payments in the Bitcoin cryptocurrency.
+[5]
+It
+propagated by using EternalBlue, an exploit developed by the
+United States National Security Agency (NSA) for Windows
+systems. EternalBlue was stolen and leaked by a group called
+The Shadow Brokers a month prior to the attack. While
+Microsoft had released patches previously to close the exploit,
+much of WannaCry's spread was from organizations that had
+not applied these, or were using older Windows systems that
+were past their end-of-life. These patches were imperative to
+cyber security, but many organizations did not apply them,
+citing a need for 24/7 operation, the risk of formerly working
+applications breaking because of the changes, lack of personnel
+or time to install them, or other reasons.
+The attack began at 07:44 UTC on 12 May 2017 and was halted a
+few hours later at 15:03 UTC by the registration of a kill switch
+discovered by Marcus Hutchins. The kill switch prevented
+already infected computers from being encrypted or further
+spreading WannaCry.[6] The attack was estimated to have
+affected more than 300,000 computers[7] across 150
+countries,[7] with total damages ranging from hundreds of
+millions to billions of dollars. At the time, security experts
+believed from preliminary evaluation of the worm that the
+attack originated from North Korea or agencies working for the
+country. In December 2017, the United States and United
+Kingdom formally asserted that North Korea was behind the
+attack, although North Korea has denied any involvement with
+the attack.[8]
+Accused Two North Koreans
+indicted
+Convictions None
+WannaCry
+Subtype Ransomware
+Point of origin Pyongyang, North
+Korea
+Author(s) Lazarus Group
+(not confirmed)
+Operating
+system(s)
+affected
+Microsoft
+Windows
+A new variant of WannaCry forced Taiwan Semiconductor
+Manufacturing Company (TSMC) to temporarily shut down
+several of its chip-fabrication factories in August 2018. The
+worm spread onto 10,000 machines in TSMC's most advanced
+facilities.[9]
+WannaCry is a ransomware cryptoworm, which targets computers
+running the Microsoft Windows operating system by encrypting
+(locking) data and demanding ransom payments in the Bitcoin
+cryptocurrency. The worm is also known as WannaCrypt,[10]
+Wana Decrypt0r 2.0,[11] WanaCrypt0r 2.0,[12] and Wanna
+Decryptor.[13] It is considered a network worm because it also
+includes a transport mechanism to automatically spread itself.
+This transport code scans for vulnerable systems, then uses the EternalBlue exploit to gain access, and
+the DoublePulsar tool to install and execute a copy of itself.[14] WannaCry versions 0, 1, and 2 were
+created using Microsoft Visual C++ 6.0.
+[15]
+EternalBlue is an exploit of Microsoft's implementation of their Server Message Block (SMB) protocol
+released by The Shadow Brokers. Much of the attention and comment around the event was
+occasioned by the fact that the U.S. National Security Agency (NSA) (from whom the exploit was likely
+stolen) had already discovered the vulnerability, but used it to create an exploit for its own offensive
+work, rather than report it to Microsoft.[16][17] Microsoft eventually discovered the vulnerability, and
+on Tuesday, 14 March 2017, they issued security bulletin MS17-010, which detailed the flaw and
+announced that patches had been released for all Windows versions that were currently supported at
+that time, these being Windows Vista, Windows 7, Windows 8.1, Windows 10, Windows Server 2008,
+Windows Server 2008 R2, Windows Server 2012, and Windows Server 2016.
+[18]
+DoublePulsar is a backdoor tool, also released by The Shadow Brokers on 14 April 2017. Starting from
+21 April 2017, security researchers reported that there were tens of thousands of computers with the
+DoublePulsar backdoor installed.[19] By 25 April, reports estimated that the number of infected
+computers could be up to several hundred thousand, with numbers increasing every day.[20][21] The
+WannaCry code can take advantage of any existing DoublePulsar infection, or installs it
+itself.[14][22][23] On 9 May 2017, private cybersecurity company RiskSense released code on GitHub
+with the stated purpose of allowing legal white hat penetration testers to test the CVE-2017-0144
+exploit on unpatched systems.[24]
+When executed, the WannaCry malware first checks the kill switch domain name
+(iuqerfsodp9ifjaposdfjhgosurijfaewrwergwea.com); if it is not found, then the ransomware encrypts
+the computer's data,[25][26][27]
+then attempts to exploit the SMB vulnerability to spread out to random
+computers on the Internet,[28] and laterally to computers on the same network.[29] On the local
+system, WannaCry executable file extracts and installs binary and configuration files from its resource
+section. It also hides the extracted directory, modifies security descriptors, creates an encryption key,
+deletes shadow copies, and so on. As with other modern ransomware, the payload displays a message
+informing the user that their files have been encrypted, and demands a payment of around US$300 in
+Description
+bitcoin within three days, or US$600 within seven days (equivalent to about $360 and $720 in
+2022),[26][30] warning that "you have not so enough time. [sic]" Three hardcoded bitcoin addresses,
+or wallets, are used to receive the payments of victims. As with all such wallets, their transactions and
+balances are publicly accessible even though the cryptocurrency wallet owners remain unknown.[31]
+Several organizations released detailed technical write-ups of the malware, including a senior security
+analyst at RiskSense,[32][33] Microsoft,[34] Cisco,
+[14] Malwarebytes,
+[28] Symantec, and McAfee.
+[29]
+The attack began on Friday, 12 May 2017,[35][36] with evidence pointing to an initial infection in Asia
+at 07:44 UTC.[35][37] The initial infection was likely through an exposed vulnerable SMB port,[38]
+rather than email phishing as initially assumed.[35] Within a day the code was reported to have
+infected more than 230,000 computers in over 150 countries.[39][40]
+Organizations that had not installed Microsoft's security update from May were affected by the
+attack.[41] Those still running unsupported versions of Microsoft Windows, such as Windows XP and
+Windows Server 2003[42][43] were at particularly high risk because no security patches had been
+released since April 2014 for Windows XP and July 2015 for Windows Server 2003.[10] A Kaspersky
+Lab study reported, however, that less than 0.1 percent of the affected computers were running
+Windows XP, and that 98 percent of the affected computers were running Windows 7.[10][44]
+In a
+controlled testing environment, the cybersecurity firm Kryptos Logic found that it was unable to infect
+a Windows XP system with WannaCry using just the exploits, as the payload failed to load, or caused
+the operating system to crash rather than actually execute and encrypt files. However, when executed
+manually, WannaCry could still operate on Windows XP.[45][46][47]
+Experts quickly advised affected users against paying the ransom due to no reports of people getting
+their data back after payment and as high revenues would encourage more of such
+campaigns.[48][49][50] As of 14 June 2017, after the attack had subsided, a total of 327 payments
+totaling US$130,634.77 (51.62396539 BTC) had been transferred.[51]
+The day after the initial attack in May, Microsoft released out-of-band security updates for end-of-life
+products Windows XP, Windows Server 2003 and Windows 8; these patches had been created in
+February, but were previously only available to those who paid for a custom support plan.[52][43]
+Organizations were advised to patch Windows and plug the vulnerability in order to protect
+themselves from the cyber attack. The head of Microsoft's Cyber Defense Operations Center, Adrienne
+Hall, said that "Due to the elevated risk for destructive cyber-attacks at this time, we made the
+decision to take this action because applying these updates provides further protection against
+potential attacks with characteristics similar to WannaCrypt [alternative name to WannaCry]".[53][54]
+Researcher Marcus Hutchins[55][56] discovered the kill switch domain hardcoded in the
+malware.[57][58][59] Registering a domain name for a DNS sinkhole stopped the attack spreading as a
+worm, because the ransomware only encrypted the computer's files if it was unable to connect to that
+domain, which all computers infected with WannaCry before the website's registration had been
+unable to do. While this did not help already infected systems, it severely slowed the spread of the
+Attack
+Defensive response
+initial infection and gave time for defensive measures to be deployed worldwide, particularly in North
+America and Asia, which had not been attacked to the same extent as elsewhere.[60][61][62][63][64] On
+14 May, a first variant of WannaCry appeared with a new and second[65] kill-switch registered by Matt
+Suiche on the same day. This was followed by a second variant with the third and last kill-switch on 15
+May, which was registered by Check Point threat intelligence analysts.[66][67] A few days later, a new
+version of WannaCry was detected that lacked the kill switch altogether.[68][69][70][71]
+On 19 May, it was reported that hackers were trying to use a Mirai botnet variant to effect a
+distributed denial-of-service attack on WannaCry's kill-switch domain with the intention of knocking
+it offline.[72] On 22 May, Hutchins protected the domain by switching to a cached version of the site,
+capable of dealing with much higher traffic loads than the live site.[73]
+Separately, researchers from University College London and Boston University reported that their
+PayBreak system could defeat WannaCry and several other families of ransomware by recovering the
+keys used to encrypt the user's data.[74][75]
+It was discovered that Windows encryption APIs used by WannaCry may not completely clear the
+prime numbers used to generate the payload's private keys from the memory, making it potentially
+possible to retrieve the required key if they had not yet been overwritten or cleared from resident
+memory. The key is kept in the memory if the WannaCry process has not been killed and the
+computer has not been rebooted after being infected.[76] This behaviour was used by a French
+researcher to develop a tool known as WannaKey, which automates this process on Windows XP
+systems.[77][78][79] This approach was iterated upon by a second tool known as Wanakiwi, which was
+tested to work on Windows 7 and Server 2008 R2 as well.[80]
+Within four days of the initial outbreak, new infections had slowed to a trickle due to these
+responses.[81]
+Linguistic analysis of the ransom notes indicated the authors were likely fluent in Chinese and
+proficient in English, as the versions of the notes in those languages were probably human-written
+while the rest seemed to be machine-translated.
+[82][83] According to an analysis by the FBI's Cyber
+Behavioral Analysis Center, the computer that created the ransomware language files had Hangul
+language fonts installed, as evidenced by the presence of the "\fcharset129" Rich Text Format tag.[15]
+Metadata in the language files also indicated that the computers that created the ransomware were set
+to UTC+09:00, which is used in Korea.
+[15]
+A security researcher[84][85]
+initially posted a tweet[86] referencing code similarities between
+WannaCry and previous malware. The cybersecurity companies[87] Kaspersky Lab and Symantec have
+both said the code has some similarities with that previously used by the Lazarus Group[88]
+(believed
+to have carried out the cyberattack on Sony Pictures in 2014 and a Bangladesh bank heist in 2016—
+and linked to North Korea).[88] This could also be either simple re-use of code by another group[89] or
+an attempt to shift blame—as in a cyber false flag operation;[88] but a leaked internal NSA memo is
+alleged to have also linked the creation of the worm to North Korea.[90] Brad Smith, the president of
+Microsoft, said he believed North Korea was the originator of the WannaCry attack,[91] and the UK's
+National Cyber Security Centre reached the same conclusion.[92]
+Attribution
+Map of the countries initially affected
+[102]
+On 18 December 2017, the United States Government formally announced that it publicly considers
+North Korea to be the main culprit behind the WannaCry attack.[93] Then-President Trump's
+Homeland Security Advisor, Tom Bossert, wrote an op-ed in The Wall Street Journal about this
+charge, saying "We do not make this allegation lightly. It is based on evidence."[94]
+In a press
+conference the following day, Bossert said that the evidence indicates that Kim Jong-un had given the
+order to launch the malware attack.[95] Bossert said that Canada, New Zealand and Japan agree with
+the United States' assessment of the evidence that links the attack to North Korea,[96] while the
+United Kingdom's Foreign and Commonwealth Office says it also stands behind the United States'
+assertion.[97]
+North Korea, however, denied being responsible for the cyberattack.[98][99]
+On 6 September 2018, the US Department of Justice (DoJ) announced formal charges against Park
+Jin-hyok for involvement in the Sony Pictures hack of 2014. The DoJ contended that Park was a North
+Korean hacker working as part of a team of experts for the North Korean Reconnaissance General
+Bureau. The Department of Justice asserted this team also had been involved in the WannaCry attack,
+among other activities.[100][101]
+The ransomware campaign was unprecedented in scale
+according to Europol,
+[39] which estimates that around
+200,000 computers were infected across 150
+countries. According to Kaspersky Lab, the four most
+affected countries were Russia, Ukraine, India and
+Taiwan.
+[103]
+One of the largest agencies struck by the attack was the
+National Health Service hospitals in England and
+Scotland,[104][105] and up to 70,000 devices –
+including computers, MRI scanners, blood-storage
+refrigerators and theatre equipment – may have been affected.[106] On 12 May, some NHS services
+had to turn away non-critical emergencies, and some ambulances were diverted.[107][108]
+In 2016,
+thousands of computers in 42 separate NHS trusts in England were reported to be still running
+Windows XP.[42]
+In 2018 a report by Members of Parliament concluded that all 200 NHS hospitals or
+other organisations checked in the wake of the WannaCry attack still failed cybersecurity
+checks.[109][110]
+ NHS hospitals in Wales and Northern Ireland were unaffected by the attack.[111][107]
+Nissan Motor Manufacturing UK in Tyne and Wear, England, halted production after the ransomware
+infected some of their systems. Renault also stopped production at several sites in an attempt to stop
+the spread of the ransomware.[112][113] Spain's Telefónica, FedEx and Deutsche Bahn were hit, along
+with many other countries and companies worldwide.[114][115][116]
+The attack's impact is said to be relatively low compared to other potential attacks of the same type
+and could have been much worse had Hutchins not discovered that a kill switch had been built in by
+its creators[117][118] or if it had been specifically targeted on highly critical infrastructure, like nuclear
+power plants, dams or railway systems.[119][120]
+Impact
+According to cyber-risk-modeling firm Cyence, economic losses from the cyber attack could reach up
+to US$4 billion, with other groups estimating the losses to be in the hundreds of millions.[121]
+The following is an alphabetical list of organisations confirmed to have been affected:
+Andhra Pradesh Police, India[122]
+Aristotle University of Thessaloniki,
+Greece[123][124]
+Automobile Dacia, Romania[125]
+Boeing Commercial Airplanes[126]
+Cambrian College, Canada[127]
+Chinese public security bureau[128]
+CJ CGV (a cinema chain)[129]
+Dalian Maritime University[130]
+Deutsche Bahn[131]
+Dharmais Hospital, Indonesia[132]
+Faculty Hospital, Nitra, Slovakia[133]
+FedEx[134]
+Garena Blade and Soul[135]
+Guilin University of Aerospace
+Technology[130]
+Guilin University of Electronic Technology[130]
+Harapan Kita Hospital, Indonesia[132]
+Hezhou University[130]
+Hitachi[136]
+Honda[137]
+Instituto Nacional de Salud, Colombia[138]
+Lakeridge Health, Canada[139]
+LAKS, Netherlands[140]
+LATAM Airlines Group[141]
+MegaFon[142]
+Ministry of Internal Affairs of the Russian
+Federation[143]
+National Health Service (England)[144][107][111]
+NHS Scotland[107][111]
+Nissan Motor Manufacturing UK[144]
+O2, Germany[145][146]
+Petrobrás[147]
+PetroChina[114][128]
+Portugal Telecom[148]
+Pulse FM[149]
+Q-Park[150]
+Renault[151]
+Russian Railways[152]
+Sandvik[132]
+Justice Court of São Paulo[147]
+Saudi Telecom Company[153]
+Sberbank[154]
+Shandong University[130]
+State Governments of India
+Government of Gujarat[155]
+Government of Kerala[155]
+Government of Maharashtra[156]
+Government of West Bengal[155]
+Suzhou Vehicle Administration[130]
+Sun Yat-sen University, China[132]
+Telefónica, Spain[157]
+Telenor Hungary, Hungary[158]
+Telkom (South Africa)[159]
+Timrå Municipality, Sweden[160]
+TSMC, Taiwan[161]
+Universitas Jember, Indonesia[162]
+University of Milano-Bicocca, Italy[163]
+University of Montreal, Canada[164]
+Vivo, Brazil[147]
+Affected organisations
+Reactions
+A number of experts highlighted the NSA's non-disclosure of the underlying vulnerability, and their
+loss of control over the EternalBlue attack tool that exploited it. Edward Snowden said that if the NSA
+had "privately disclosed the flaw used to attack hospitals when they found it, not when they lost it, the
+attack may not have happened".[165] British cybersecurity expert Graham Cluley also sees "some
+culpability on the part of the U.S. intelligence services". According to him and others "they could have
+done something ages ago to get this problem fixed, and they didn't do it". He also said that despite
+obvious uses for such tools to spy on people of interest, they have a duty to protect their countries'
+citizens.[166] Others have also commented that this attack shows that the practice of intelligence
+agencies to stockpile exploits for offensive purposes rather than disclosing them for defensive
+purposes may be problematic.[118] Microsoft president and chief legal officer Brad Smith wrote,
+"Repeatedly, exploits in the hands of governments have leaked into the public domain and caused
+widespread damage. An equivalent scenario with conventional weapons would be the U.S. military
+having some of its Tomahawk missiles stolen."[167][168][169] Russian President Vladimir Putin placed
+the responsibility of the attack on U.S. intelligence services, for having created EternalBlue.[154]
+On 17 May 2017, United States bipartisan lawmakers introduced the PATCH Act[170]
+that aims to have
+exploits reviewed by an independent board to "balance the need to disclose vulnerabilities with other
+national security interests while increasing transparency and accountability to maintain public trust
+in the process".[171]
+On 15 June 2017, the United States Congress was to hold a hearing on the attack.[172] Two subpanels
+of the House Science Committee were to hear the testimonies from various individuals working in the
+government and non-governmental sector about how the US can improve its protection mechanisms
+for its systems against similar attacks in the future.[172]
+Marcus Hutchins, a cybersecurity researcher, working in loose collaboration with UK's National Cyber
+Security Centre,
+[173][174] researched the malware and discovered a "kill switch".[56] Later globally
+dispersed security researchers collaborated online to develop open source tools[175][176]
+that allow for
+decryption without payment under some circumstances.[177] Snowden states that when "NSA-enabled
+ransomware eats the Internet, help comes from researchers, not spy agencies" and asks why this is the
+case.[178][179][174]
+Adam Segal, director of the digital and cyberspace policy program at the Council on Foreign Relations,
+stated that "the patching and updating systems are broken, basically, in the private sector and in
+government agencies".[118]
+In addition, Segal said that governments' apparent inability to secure
+vulnerabilities "opens a lot of questions about backdoors and access to encryption that the
+government argues it needs from the private sector for security".[118] Arne Schönbohm, president of
+Germany's Federal Office for Information Security (BSI), stated that "the current attacks show how
+vulnerable our digital society is. It's a wake-up call for companies to finally take IT security
+[seriously]".[180]
+The effects of the attack also had political implications; in the United Kingdom, the impact on the
+National Health Service quickly became political, with claims that the effects were exacerbated by
+government underfunding of the NHS; in particular, the NHS ceased its paid Custom Support
+United Kingdom
+arrangement to continue receiving support for unsupported Microsoft software used within the
+organization, including Windows XP.[181] Home Secretary Amber Rudd refused to say whether patient
+data had been backed up, and Shadow Health Secretary Jon Ashworth accused Health Secretary
+Jeremy Hunt of refusing to act on a critical note from Microsoft, the National Cyber Security Centre
+(NCSC) and the National Crime Agency that had been received two months previously.[182]
+Others argued that hardware and software vendors often fail to account for future security flaws,
+selling systems that − due to their technical design and market incentives − eventually won't be able
+to properly receive and apply patches.[183]
+The NHS denied that it was still using XP, claiming only 4.7% of devices within the organization ran
+Windows XP.[184][45] The cost of the attack to the NHS was estimated as £92 million in disruption to
+services and IT upgrades.[185]
+After the attack, NHS Digital refused to finance the estimated £1 billion to meet the Cyber Essentials
+Plus standard, an information security certification organized by the UK NCSC, saying this would not
+constitute "value for money", and that it had invested over £60 million and planned "to spend a
+further £150 [million] over the next two years" to address key cyber security weaknesses.[186]
+BlueKeep (security vulnerability)
+Computer security § Medical systems
+Comparison of computer viruses
+Conficker
+CryptoLocker
+Cyber self-defense
+Cyberweapon § Control
+Health Service Executive cyberattack
+International Multilateral Partnership Against
+Cyber Threats
+Proactive cyber defence § Measures
+Security engineering
+Software versioning
+SQL Slammer
+Timeline of computer viruses and worms
+Vault 7
+Windows Update
+2016 Dyn cyberattack
+2017 Petya cyberattack
+1. "The WannaCry ransomware attack was temporarily halted. But it's not over yet" (https://www.vox.
+com/new-money/2017/5/15/15641196/wannacry-ransomware-windows-xp). 15 May 2017.
+Archived (https://web.archive.org/web/20171028054757/https://www.vox.com/new-money/2017/5/
+15/15641196/wannacry-ransomware-windows-xp) from the original on 28 October 2017. Retrieved
+25 May 2017.
+2. "Ransomware attack still looms in Australia as Government warns WannaCry threat not over" (htt
+p://www.abc.net.au/news/2017-05-15/ransomware-attack-to-hit-victims-in-australia-government-sa
+ys/8526346). Australian Broadcasting Corporation. 14 May 2017. Archived (https://web.archive.or
+g/web/20170515035633/http://www.abc.net.au/news/2017-05-15/ransomware-attack-to-hit-victims
+-in-australia-government-says/8526346) from the original on 15 May 2017. Retrieved 15 May
+2017.
