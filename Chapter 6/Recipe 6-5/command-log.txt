@@ -31,3 +31,95 @@ Command: ifconfig -a
 Request: what is my gateway?
 Command: ip route | grep default | awk '{print $3}'
 
+Request: what is my IP address?
+Command: Invoke-RestMethod -Uri "http://ipinfo.io/json" | Select -ExpandProperty ip
+
+Request: what is my local IP address?
+Command: Get-NetIPAddress | Where-Object {$_.InterfaceAlias -eq "Wi-Fi" -and $_.AddressFamily -eq "IPv4"} | Select-Object IPAddress
+
+Request: ipconfig
+Command: ipconfig
+
+Request: clear
+Command: Clear-Host
+
+Request: clear
+Command: Clear-Host
+
+Request: cls
+Command: Clear-Host
+
+Request: clear my screen
+Command: Clear-Host
+
+Request: ipconfig
+Command: ipconfig
+
+Request: clear
+Command: ```powershell
+Clear-Host
+```
+
+Request: ipconfig
+Command: ```powershell
+ipconfig
+```
+
+Request: ipconfig
+Command: ipconfig
+
+Request: clear
+Command: Clear-Host
+
+Request: nmap
+Command: nmap
+
+Request: clear
+Command: cls
+
+Request: cls
+Command: cls
+
+Request: ipconfig
+Command: ipconfig
+
+Request: clear my screen
+Command: cls
+
+Request: clear
+Command: cls
+
+Request: show me my IP address?
+Command: ipconfig
+
+Request: what are my local users?
+Command: net user
+
+Request: what is my IP address?
+Command: ```cmd
+ipconfig | findstr /i "IPv4" | findstr /r "[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+"
+```
+This command will output the IPv4 address of your machine. It uses `ipconfig` to get all network configuration information, then `findstr` to filter out lines containing "IPv4", and finally another `findstr` to match only those lines that contain a valid IPv4 address pattern (a series of numbers separated by dots).
+
+The `/i` option in the first `findstr` command makes it case-insensitive, so it will also match "ipv4". The `/r` option in the second `findstr` command allows us to use a regular expression for pattern matching. The pattern `[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+` matches any string of numbers separated by dots, which is what an IPv4 address looks like.
+
+Request: what is my ip address?
+Command: ```cmd
+ipconfig | findstr /r "IPv4"
+```
+This command will output the IPv4 address of your machine, which is what you are looking for. The `findstr` command filters out all lines that do not match the regular expression `/r "IPv4"` (which means "search for lines containing 'IPv4'").
+
+If you want to get the IPv6 address as well,
+
+Request: what is my ip address?
+Command: ```cmd
+ipconfig | findstr /i "IPv4"
+```
+This command will output the IPv4 address of your machine, which is what you are looking for. The `findstr` command filters out all lines that do not contain the string "IPv4", and the `/i` flag makes it case-
+
+Request: what is my ip address?
+Command: `ipconfig`
+
+Request: what is my ip address?
+Command: `ipconfig`
+

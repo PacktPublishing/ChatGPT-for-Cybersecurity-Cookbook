@@ -19,7 +19,7 @@ file = client.files.create(
 security_analyst_assistant = client.beta.assistants.create(
     name="Cybersecurity Analyst Assistant",
     instructions="You are cybersecurity that can help identify potential security issues.",
-    model="gpt-4-turbo-preview",
+    model="gpt-3.5-turbo",
     tools=[{"type": "retrieval"}],
     file_ids=[file.id],
 )

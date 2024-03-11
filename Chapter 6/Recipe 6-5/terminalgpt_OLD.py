@@ -30,7 +30,7 @@ def gpt_3(prompt): #Sets up and runs the request to the OpenAI API
         )
         text = response['choices'][0]['text'].strip() #Trims the API response to be more readable for what we want
         return text
-    except openai.error.APIError as e: #Returns and error and retries if there is an issue communicating with the API
+    except openai.APIConnectionError as e: #Returns and error and retries if there is an issue communicating with the API
         print(f"\nError communicating with the API.")
         print(f"\nError: {e}") #More detailed error output
         print("\nRetrying...")
