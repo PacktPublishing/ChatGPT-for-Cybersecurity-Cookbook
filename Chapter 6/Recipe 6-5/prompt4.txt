@@ -1,4 +1,4 @@
-Provide me with the Windows CLI command necessary to complete the following request:
+Provide me with the Kali Linux command necessary to complete the following request:
 
 {INPUT}
 
