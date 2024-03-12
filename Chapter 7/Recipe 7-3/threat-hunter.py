@@ -23,7 +23,7 @@ def call_gpt(prompt):
     ]
     client = OpenAI() # Updated for the new OpenAI API
     response = client.chat.completions.create(
-        model="gpt-3.5-turbo",
+        model="gpt-4-turbo-preview",
         messages=messages,
         max_tokens=2048,
         n=1,
@@ -38,14 +38,19 @@ def run_command(command):
     return result.stdout
 
 # Gather data from key locations
-registry_data = run_command('reg query HKLM /s')  # Replace with specific registry keys
+# registry_data = run_command('reg query HKLM /s')  # This produces MASSIVE data. Replace with specific registry keys if needed
+# print(registry_data)
 process_data = run_command('tasklist /v')
+print(process_data)
 network_data = run_command('netstat -an')
+print(network_data)
 scheduled_tasks = run_command('schtasks /query /fo LIST')
-security_logs = run_command('wevtutil qe Security /c:1 /rd:true /f:text')  # Last security event
+print(scheduled_tasks)
+security_logs = run_command('wevtutil qe Security /c:10 /rd:true /f:text')  # Last 10 security events. Adjust as needed
+print(security_logs)
 
 # Analyze the gathered data using ChatGPT
-analysis_result = call_gpt(f"Analyze the following Windows system data for signs of APTs:\nRegistry Data:\n{registry_data}\n\nProcess Data:\n{process_data}\n\nNetwork Data:\n{network_data}\n\nScheduled Tasks:\n{scheduled_tasks}\n\nSecurity Logs:\n{security_logs}")
+analysis_result = call_gpt(f"Analyze the following Windows system data for signs of APTs:\nProcess Data:\n{process_data}\n\nNetwork Data:\n{network_data}\n\nScheduled Tasks:\n{scheduled_tasks}\n\nSecurity Logs:\n{security_logs}") # Add Registry Data:\n{#registry_data}\n\n if used
 
 # Display the analysis result
 print(f"Analysis Result:\n{analysis_result}")
