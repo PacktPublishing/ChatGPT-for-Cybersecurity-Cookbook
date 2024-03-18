@@ -46,10 +46,10 @@ async def handle_syslog():
     while True:
         data, addr = sock.recvfrom(1024)
         log_entry = data.decode('utf-8')
-        analysis_result = call_gpt(f"Analyze the following log entry for potential threats: {log_entry} \n\nIf you believe there may be suspicious activity, start your response with 'Suspicious Activity: ' and then your analysis. Provide nothing else.")
+        analysis_result = call_gpt(f"Analyze the following log entry for potential threats: {log_entry} \n\nIf you believe there may be suspicious activity, start your response with 'Suspicious Activity: ' and then your analysis. Provide nothing else. If you believe the behavior is normal, start your response with 'Normal Activity: ' and then your analysis. Provide nothing else.")
 
         if "Suspicious Activity" in analysis_result:
-            print(f"Alert: {analysis_result}")
+            print(f"{analysis_result}\n\n")
 
         await asyncio.sleep(0.1)  # A small delay to allow other tasks to run
 

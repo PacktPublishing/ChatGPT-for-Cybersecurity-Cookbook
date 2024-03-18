@@ -36,14 +36,14 @@ def generate_network_switch_syslog():
     timestamp = time.strftime("%b %d %H:%M:%S")
 
     # Create a simulated switch name
-    switch_name = f'switch{randint(1, 100)}'
+    switch_name = f'switch{randint(1, 50)}'
 
     # Construct the syslog message
     syslog_message = f"{timestamp} {switch_name} %LINK-{severity}: {event}"
 
     return syslog_message
 
-def send_syslog_messages(ip, port, message_count=10):
+def send_syslog_messages(ip, port, message_count=50):
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
     try:
