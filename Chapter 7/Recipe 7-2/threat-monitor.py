@@ -37,7 +37,7 @@ def call_gpt(prompt):
 
 # Asynchronous function to handle incoming syslog messages
 async def handle_syslog():
-    UDP_IP = "0.0.0.0"
+    UDP_IP = "127.0.0.1"
     UDP_PORT = 514
 
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
