@@ -1,5 +1,5 @@
 # This script generates simulated syslog messages and sends them to a syslog server to test the code for this recipe.
-# This script can be found in the GitHub repository for this book/recipe.
+# This script can be found in the GitHub repository for this book/recipe: https://github.com/PacktPublishing/ChatGPT-for-Cybersecurity-Cookbook/tree/main/Chapter%207/Recipe%207-2
 
 import socket
 import time
